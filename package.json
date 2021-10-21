@@ -1,0 +1,17 @@
+{
+  "name": "certverify",
+  "version": "1.0.0",
+  "description": "Certificate Verification System",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon app.js",
+    "lint": "eslint **/*.js"
+  },
+  "author": "Eda",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "prettier": "2.4.1"
+  }
+}

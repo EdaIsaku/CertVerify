@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CertVerify</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1 class="header__title">New Participant?</h1>
+        <p class="header__subtitle">
+          Please, fill in with required information and registrate.
+        </p>
+      </div>
+      <div class="main">
+        <div class="registration">
+          <div class="course">
+            <div class="course__name">
+              <select class="course__name__select" name="course">
+                <option value="select" selected disabled autofocus>
+                  Select Course
+                </option>
+                <option class="course__name__option" value="BLSD">BLSD</option>
+                <option class="course__name__option" value="BLSD_T">
+                  BLSD_T
+                </option>
+                <option class="course__name__option" value="ACLS">ACLS</option>
+                <option class="course__name__option" value="TH">TH</option>
+              </select>
+            </div>
+            <div class="course__date">
+              <input class="course__date__input" type="date" />
+            </div>
+          </div>
+          <form class="form">
+            <h1>Hello</h1>
+            <input
+              class="form__input name"
+              type="text"
+              name="name"
+              placeholder="First Name..."
+              pattern="[A-Za-z]{3,}"
+              title="Up to three letters"
+              required
+            />
+            <input
+              class="form__input lName"
+              type="text"
+              name="name"
+              placeholder="Last Name..."
+              pattern="[A-Za-z]{3,}"
+              title="Up to three letters"
+              required
+            />
+            <input
+              class="form__input email"
+              type="email"
+              name="name"
+              placeholder="Email..."
+              pattern="[a-z0-9.]{3,}+@{1}[a-z0-9.-]{3,}+.{1}[a-z]{2,}"
+              title="Valid email: ex(testtest@test.com)"
+              required
+            />
+            <input
+              class="form__submit submit"
+              type="submit"
+              name="submit"
+              id=""
+              value="Add new student"
+            />
+          </form>
+          <div class="reset">
+            <input type="button" class="reset__button" value="Reset All" />
+          </div>
+        </div>
+        <div class="data">
+          <div class="data__info"></div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
