@@ -6,12 +6,18 @@
   "scripts": {
     "test": "jest",
     "dev": "nodemon app.js",
-    "lint": "eslint **/*.js"
+    "lint": "eslint **/*.js",
+    "sass": "sass --watch ./public/style.scss:./public/style.css"
   },
   "author": "Eda",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.0.1",
     "prettier": "2.4.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pdf-lib": "^1.17.0",
+    "qrcode": "^1.4.4"
   }
 }

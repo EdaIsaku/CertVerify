@@ -14,7 +14,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #e5f6e5;
+  background-color: #fff;
 }
 
 .header {
@@ -40,6 +40,7 @@
   height: 70%;
   border-radius: 2rem;
   display: flex;
+  box-shadow: 0 0 35px 5px rgb(221, 221, 221);
 }
 
 .registration {
@@ -50,7 +51,7 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  border-radius: 2rem 0 0 2rem;
+  border-radius: 2rem;
 }
 
 .course {
@@ -72,14 +73,9 @@
       outline: none;
       border-bottom: 2px solid #ccc;
       padding: 0 0 8px 8px;
-      color: #6a041d;
     }
     &__option {
       font-size: 1rem;
-      &:focus {
-        background: navy;
-        color: red;
-      }
     }
   }
   &__date {
@@ -95,7 +91,6 @@
       outline: none;
       border-bottom: 2px solid #ccc;
       padding-bottom: 8px;
-      color: #6a041d;
     }
   }
 }
@@ -110,35 +105,17 @@
     width: 30%;
     height: 70%;
     border-radius: 8px;
-    border: none;
     outline: none;
     cursor: pointer;
     font-size: 1.1rem;
-    color: #fff;
-    background: #c33764; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #1d2671,
-      #c33764
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #1d2671,
-      #c33764
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    transition: all 0.4s;
+    color: #c33764;
+    border: 1px solid #c33764;
+    background: #fff;
+    transition: all 0.4s ease-in-out;
     &:hover {
-      background: #c33764; /* fallback for old browsers */
-      background: -webkit-linear-gradient(
-        to left,
-        #1d2671,
-        #c33764
-      ); /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(
-        to left,
-        #1d2671,
-        #c33764
-      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color: #fff;
+      background: #c33764;
+      border: 1px solid #fff;
     }
     &:active {
       transform: scale(0.95);
@@ -165,36 +142,22 @@
   &__submit {
     width: 80%;
     border: none;
+    background-color: #fff;
+    border-top: 1px double #fff;
+    border-bottom: 1px solid #fff;
     padding: 1rem;
     margin-bottom: 1rem;
-    border-radius: 8px;
-    background: #232526; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #414345,
-      #232526
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #414345,
-      #232526
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     cursor: pointer;
-    color: #fff;
+    color: teal;
     font-size: 1.2rem;
-    transition: all 0.4s;
+    transition: all 0.6s ease-in-out;
+    box-sizing: border-box;
     &:hover {
-      background: #232526; /* fallback for old browsers */
-      background: -webkit-linear-gradient(
-        to left,
-        #414345,
-        #232526
-      ); /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(
-        to left,
-        #414345,
-        #232526
-      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: #fff;
+      letter-spacing: 3px;
+      color: teal;
+      border-top: 1px double teal;
+      border-bottom: 1px solid teal;
     }
     &:active {
       transform: scale(0.95);
@@ -205,12 +168,22 @@
 .data {
   width: 55%;
   height: 100%;
-  background-color: #d9dcdb;
   border-radius: 0 2rem 2rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #b80068;
+  background: #50c9c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #96deda,
+    #50c9c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #96deda,
+    #50c9c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   // background-image: url(../assets/background_image.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;

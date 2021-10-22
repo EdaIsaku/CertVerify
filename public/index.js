@@ -1,10 +1,10 @@
 const getElement = (input) => {
   return document.querySelector(input);
 };
-const name = getElement('.name');
-const lName = getElement('.lName');
-const email = getElement('.email');
-const submit = getElement('.submit');
+// const name = getElement('.name');
+// const lName = getElement('.lName');
+// const email = getElement('.email');
+// const submit = getElement('.submit');
 const reset = getElement('.reset__button');
 const courseName = getElement('.course__name__select');
 const courseDate = getElement('.course__date__input');
@@ -21,8 +21,8 @@ reset.addEventListener('click', (ev) => {
   courseName.selectedIndex = 0;
   courseDate.value = '';
 });
-
-submit.addEventListener('click', (ev) => {
-  // ev.preventDefault();
-  // clearForm('.form');
-});
+//TODO clearForm
+// submit.addEventListener('click', (ev) => {
+// ev.preventDefault();
+// clearForm('.form');
+// });
