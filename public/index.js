@@ -4,7 +4,7 @@ const getElement = (input) => {
 // const name = getElement('.name');
 // const lName = getElement('.lName');
 // const email = getElement('.email');
-// const submit = getElement('.submit');
+const submit = getElement('.submit');
 const reset = getElement('.reset__button');
 const courseName = getElement('.course__name__select');
 const courseDate = getElement('.course__date__input');
@@ -21,8 +21,8 @@ reset.addEventListener('click', (ev) => {
   courseName.selectedIndex = 0;
   courseDate.value = '';
 });
+
 //TODO clearForm
-// submit.addEventListener('click', (ev) => {
-// ev.preventDefault();
-// clearForm('.form');
-// });
+submit.addEventListener('click', (ev) => {
+  ev.preventDefault();
+});

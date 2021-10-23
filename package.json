@@ -18,6 +18,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "pdf-lib": "^1.17.0",
-    "qrcode": "^1.4.4"
+    "qrcode": "^1.4.4",
+    "sqlite3": "^5.0.2"
   }
 }
