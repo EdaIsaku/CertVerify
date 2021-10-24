@@ -1,5 +1,6 @@
-const { mkdir, writeFile, readFileSync } = require('fs');
+const fs = require('fs');
 const path = require('path');
+
 const { PDFDocument, StandardFonts } = require('pdf-lib');
 const QRCode = require('qrcode');
 
@@ -9,7 +10,7 @@ const QRCode = require('qrcode');
 // };
 
 const selectCertificate = (course) => {
-  const certificate = readFileSync(
+  const certificate = fs.readFileSync(
     `${__dirname}/assets/${course}_Certificate.pdf`
   );
   return certificate;
@@ -67,7 +68,7 @@ const generatePdf = async () => {
   form.flatten();
   const pdfBytes = await BLSD_template.save();
 
-  mkdir(
+  fs.mkdir(
     path.join(__dirname, 'BLSD_Certificates'),
     { recursive: true },
     (err) => {
@@ -78,7 +79,7 @@ const generatePdf = async () => {
     }
   );
 
-  writeFile(`./BLSD_Certificates/${student}.pdf`, pdfBytes, (err) => {
+  fs.writeFile(`./BLSD_Certificates/${student}.pdf`, pdfBytes, (err) => {
     if (err) throw err;
     console.log('The file has been saved!');
   });

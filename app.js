@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const port = process.env.PORT || 3000;
+require('dotenv').config();
+const port = process.env.PORT || process.env.PORT;
 
 const staticPath = path.join(__dirname, '/public');
 app.use(express.static(staticPath));
@@ -14,14 +15,14 @@ const {
   findStudent,
   findAllStudents,
   deleteStudent,
-  closeDB,
+  // closeDB,
 } = require('./db/index');
 
 // generatePdf();
-init();
 
 app.post('/addStudent', (req, res) => {
-  const newStudent = req.body;
+  const { first_name, last_name, email, course, date, credit } = req.body;
+  const newStudent = { first_name, last_name, email, course, date, credit };
   addStudent(newStudent)
     .then((result) => {
       res.status(200).send(result);
@@ -29,11 +30,14 @@ app.post('/addStudent', (req, res) => {
     .catch((err) => res.status(400).send(err));
 });
 
-app.post('/findStudent', (req, res) => {
-  const student = req.body;
-  findStudent(student)
-    .then((result) => res.status(200).send(result))
-    .catch((err) => res.status(400).send(err));
+app.post('/findStudent', async (req, res) => {
+  const { email } = req.body;
+  const student = await findStudent(email);
+  if (student) {
+    res.status(200).send(student);
+  } else {
+    res.status(400).send('no user with that email');
+  }
 });
 
 app.post('/findAllStudents', (req, res) => {
@@ -43,14 +47,17 @@ app.post('/findAllStudents', (req, res) => {
 });
 
 app.post('/deleteStudent', (req, res) => {
-  const student = req.body;
-  deleteStudent(student).then((result) => res.status(200).send(result));
+  const { email } = req.body;
+  deleteStudent(email).then((result) => res.status(200).send(result));
 });
 
-process.on('SIGINT', () => {
-  closeDB();
-});
+// process.on('SIGINT', () => {
+//   closeDB();
+// });
 
-app.listen(port, () => {
-  console.log(`Server is listening at ${port}`);
+init().then(() => {
+  console.log('DB Created successfully!');
+  app.listen(port, () => {
+    console.log(`Server is listening at ${port}`);
+  }); //Pse me duhet serveri nese sme aktivizohet DB
 });

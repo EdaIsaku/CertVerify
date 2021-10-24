@@ -18,26 +18,50 @@
       <div class="main">
         <div class="registration">
           <div class="course">
-            <div class="course__name">
-              <select class="course__name__select" name="course">
-                <option value="select" selected disabled>Select Course</option>
-                <option class="course__name__option" value="BLSD">BLSD</option>
-                <option class="course__name__option" value="BLSD_T">
-                  BLSD_T
-                </option>
-                <option class="course__name__option" value="ACLS">ACLS</option>
-                <option class="course__name__option" value="TH">TH</option>
-                <option class="course__name__option" value="other">
-                  Other
-                </option>
-              </select>
+            <div class="course__row">
+              <div class="course__name">
+                <select class="course__name__select" name="course">
+                  <option value="select" selected disabled>
+                    Select Course
+                  </option>
+                  <option class="course__name__option" value="BLSD">
+                    BLSD
+                  </option>
+                  <option class="course__name__option" value="BLSD_T">
+                    BLSD_T
+                  </option>
+                  <option class="course__name__option" value="ACLS">
+                    ACLS
+                  </option>
+                  <option class="course__name__option" value="TH">TH</option>
+                  <option class="course__name__option" value="other">
+                    Other
+                  </option>
+                </select>
+              </div>
+              <div class="course__date">
+                <input class="course__date__input" type="date" />
+              </div>
             </div>
-            <div class="course__date">
-              <input class="course__date__input" type="date" />
+            <div class="course__row">
+              <div class="course__credit">
+                <input
+                  class="course__credit__input"
+                  type="number"
+                  placeholder="Course Credit"
+                />
+              </div>
+              <div class="course__reset">
+                <input
+                  type="button"
+                  class="course__reset__input"
+                  value="Reset All"
+                />
+              </div>
             </div>
           </div>
           <form class="form">
-            <h1>Hello</h1>
+            <h2>Student data</h2>
             <input
               class="form__input name"
               type="text"
@@ -74,12 +98,29 @@
               value="Add  Student"
             />
           </form>
-          <div class="reset">
-            <input type="button" class="reset__button" value="Reset All" />
-          </div>
         </div>
-        <div class="data">
-          <div class="data__info"></div>
+        <div class="statistics">
+          <div class="statistics__info">
+            <div class="statistics__row">
+              <div class="statistics__data">
+                <div class="statistics__data__value"><span> </span></div>
+              </div>
+              <div class="statistics__data">
+                <h3 class="statistics__data__title">BLSD_T</h3>
+                <div class="statistics__data__value">54</div>
+              </div>
+            </div>
+            <div class="statistics__row">
+              <div class="statistics__data">
+                <h3 class="statistics__data__title">ACLS</h3>
+                <div class="statistics__data__value">32</div>
+              </div>
+              <div class="statistics__data">
+                <h3 class="statistics__data__title">TH</h3>
+                <div class="statistics__data__value">39</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

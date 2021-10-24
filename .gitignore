@@ -1,2 +1,4 @@
 /node_modules
-/db/database.db
+/db/*
+/BLSD_Certificate/*
+.env
