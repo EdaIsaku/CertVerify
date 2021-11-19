@@ -65,7 +65,7 @@ courseName.addEventListener('click', () => {
         background: 'linear-gradient(to right, #50c9c3, #96deda)',
       },
       onClick: function () {
-        console.log((this.duration = 0));
+        this.duration = 0;
       },
     }).showToast();
   }
