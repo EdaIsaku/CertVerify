@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>CertVerify</title>
   </head>
@@ -12,7 +24,7 @@
       <div class="header">
         <h1 class="header__title">New Participant?</h1>
         <p class="header__subtitle">
-          Please, fill in with required information and registrate.
+          Please fill in with required information and registrate.
         </p>
       </div>
       <div class="main">
@@ -20,15 +32,15 @@
           <div class="course">
             <div class="course__row">
               <div class="course__name">
-                <select class="course__name__select" name="course">
+                <select class="course__name__select" name="course" required>
                   <option value="select" selected disabled>
                     Select Course
                   </option>
                   <option class="course__name__option" value="BLSD">
                     BLSD
                   </option>
-                  <option class="course__name__option" value="BLSD_T">
-                    BLSD_T
+                  <option class="course__name__option" value="BLS_T">
+                    BLS_T
                   </option>
                   <option class="course__name__option" value="ACLS">
                     ACLS
@@ -40,15 +52,16 @@
                 </select>
               </div>
               <div class="course__date">
-                <input class="course__date__input" type="date" />
+                <input class="course__date__input" type="date" required />
               </div>
             </div>
             <div class="course__row">
               <div class="course__credit">
                 <input
                   class="course__credit__input"
-                  type="number"
+                  type="text"
                   placeholder="Course Credit"
+                  required
                 />
               </div>
               <div class="course__reset">
@@ -61,7 +74,7 @@
             </div>
           </div>
           <form class="form">
-            <h2>Student data</h2>
+            <h2 class="form__title">Student data</h2>
             <input
               class="form__input name"
               type="text"
@@ -89,7 +102,16 @@
               title="Valid email: ex(testtest@test.com)"
               required
             />
-
+            <input
+              class="form__input studentID"
+              type="text"
+              name="studentID]"
+              placeholder="Student ID..."
+              pattern="[A-Z]{1}[0-9]{8}[A-Z]{1}"
+              title="ID format only"
+              required
+            />
+            <span class="required">* All the above fields are required</span>
             <input
               class="form__submit submit"
               type="submit"
@@ -98,32 +120,70 @@
               value="Add  Student"
             />
           </form>
-        </div>
-        <div class="statistics">
-          <div class="statistics__info">
-            <div class="statistics__row">
-              <div class="statistics__data">
-                <div class="statistics__data__value"><span> </span></div>
-              </div>
-              <div class="statistics__data">
-                <h3 class="statistics__data__title">BLSD_T</h3>
-                <div class="statistics__data__value">54</div>
-              </div>
-            </div>
-            <div class="statistics__row">
-              <div class="statistics__data">
-                <h3 class="statistics__data__title">ACLS</h3>
-                <div class="statistics__data__value">32</div>
-              </div>
-              <div class="statistics__data">
-                <h3 class="statistics__data__title">TH</h3>
-                <div class="statistics__data__value">39</div>
-              </div>
+          <div class="import">
+            <span class="import__span">or import them from an excel file</span>
+            <div class="import__excel">
+              <label for="file__upload" class="custom-file-upload">
+                <i class="fas fa-file-excel fa-2x import__icon"></i>
+              </label>
+              <input
+                id="file__upload"
+                class="import__input"
+                type="file"
+                accept=".xlsx"
+                name="filename"
+              />
             </div>
           </div>
         </div>
+        <div class="statistics">
+          <div class="statistics__info">
+            <div class="statistics__data">
+              <h3 class="statistics__data__title">BLSD</h3>
+              <div class="statistics__data__value">
+                <span class="blsd"></span>
+              </div>
+            </div>
+            <div class="statistics__data">
+              <h3 class="statistics__data__title">BLS_T</h3>
+              <div class="statistics__data__value">
+                <span class="bls_t"></span>
+              </div>
+            </div>
+            <div class="statistics__data">
+              <h3 class="statistics__data__title">ACLS</h3>
+              <div class="statistics__data__value">
+                <span class="acls"></span>
+              </div>
+            </div>
+            <div class="statistics__data">
+              <h3 class="statistics__data__title">TH</h3>
+              <div class="statistics__data__value">
+                <span class="th"></span>
+              </div>
+            </div>
+            <form class="new-course">
+              <input
+                class="new-course__input"
+                type="text"
+                placeholder="Insert course name"
+              />
+              <input
+                class="new-course__button"
+                type="button"
+                value="Add course"
+              />
+            </form>
+          </div>
+          <div class="background"></div>
+        </div>
       </div>
     </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+
     <script src="index.js"></script>
   </body>
 </html>

@@ -4,12 +4,14 @@ let db = new sqlite3.Database('./db/database.db');
 
 const init = () => {
   const query = `CREATE TABLE IF NOT EXISTS Student (
+    id TEXT NOT NULL,
+    student_id VARCHAR(10) NOT NULL UNIQUE,
     first_name TEXT NOT NULL,
     last_name TEXT NOT NULL,
     email TEXT NOT NULL UNIQUE,
     course TEXT NOT NULL,
-    date TEXT NOT NULL,
-    credit INTEGER NOT NULL)`;
+    course_date TEXT NOT NULL,
+    course_credit TEXT NOT NULL)`;
   return new Promise((resolve, reject) => {
     db.run(query, (err) => {
       if (err) {
@@ -20,27 +22,70 @@ const init = () => {
   });
 };
 
-const addStudent = (student) => {
-  const { first_name, last_name, email, course, date, credit } = student;
+const addStudent = (student, id) => {
+  const {
+    student_id,
+    first_name,
+    last_name,
+    email,
+    course,
+    course_date,
+    course_credit,
+  } = student;
   return new Promise((resolve, reject) => {
     const query = `INSERT INTO Student(
+      id, 
+      student_id,
       first_name,
       last_name,
       email,
       course,
-      date,
-      credit) VALUES(?, ?, ?, ?, ?, ?)`;
-
+      course_date,
+      course_credit) VALUES(?, ?, ?, ?, ?, ?, ?, ?)`;
     db.run(
       query,
-      [first_name, last_name, email, course, date, credit],
-      (err, row) => {
+      [
+        id,
+        student_id,
+        first_name,
+        last_name,
+        email,
+        course,
+        course_date,
+        course_credit,
+      ],
+      (err) => {
         if (err) {
           return reject(err);
         }
-        return resolve(row); // gjithmone mbaj mend qe resolve('Ajo cka me duhet mua')
+        console.log('new patient added in DB');
+        resolve(true);
       }
     );
+  });
+};
+
+const addStudentFromExcel = (rowStudentData) => {
+  return new Promise((resolve, reject) => {
+    const query = `INSERT INTO Student(
+    id, 
+    student_id,
+    first_name,
+    last_name,
+    email,
+    course,
+    course_date,
+    course_credit) VALUES(?, ?, ?, ?, ?, ?, ?, ?)`;
+    rowStudentData.forEach((student) => {
+      db.run(query, student, (err, row) => {
+        if (err) {
+          console.log(err);
+          return reject(err);
+        }
+        console.log('New student added in DB');
+        return resolve(row);
+      });
+    });
   });
 };
 
@@ -51,7 +96,7 @@ const findStudent = (email) => {
       if (err) {
         reject(err);
       } else {
-        resolve(row); // email eshte unik, nuk mund te kthej rows
+        resolve(row);
       }
     });
   });
@@ -83,21 +128,23 @@ const deleteStudent = (email) => {
   });
 };
 
-// const closeDB = () => {
-//   db.close((err) => {
-//     if (err) {
-//       console.log(err);
-//     } else {
-//       console.log('Database is Closing...');
-//     }
-//   });
-// };
+const closeDB = () => {
+  db.close((err) => {
+    if (err) {
+      console.log(err);
+      return;
+    }
+    console.log('Database is Closing...');
+    process.exit();
+  });
+};
 
 module.exports = {
   init,
   addStudent,
+  addStudentFromExcel,
   findStudent,
   findAllStudents,
   deleteStudent,
-  // closeDB,
+  closeDB,
 };
