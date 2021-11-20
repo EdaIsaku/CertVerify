@@ -1,4 +1,6 @@
 /node_modules
 /db/*
 /BLSD_Certificate/*
+/public/logger/error.log
+/public/logger/info.log
 .env

@@ -7,6 +7,8 @@ const { PDFDocument, StandardFonts } = require('pdf-lib');
 const QRCode = require('qrcode');
 const { DateTime } = require('luxon');
 
+const { infoLogger, errorLogger } = require('./public/logger/logger');
+
 const selectCertificate = (course) => {
   const certificate = fs.readFileSync(
     `${__dirname}/assets/${course}_Certificate.pdf`
@@ -84,15 +86,15 @@ const generatePdf = async (student) => {
     { recursive: true },
     (err) => {
       if (err) {
-        return console.error(err);
+        return errorLogger.log('error', err);
       }
-      console.log('Directory created successfully!');
+      infoLogger.log('info', 'Directory created successfully!');
     }
   );
 
   fs.writeFile(`./BLSD_Certificates/${id}.pdf`, pdfBytes, (err) => {
     if (err) throw err;
-    console.log('The file has been saved!');
+    infoLogger.log('info', 'The file has been saved!');
   });
 };
 

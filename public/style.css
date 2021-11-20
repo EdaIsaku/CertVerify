@@ -382,8 +382,10 @@
     display: none;
   }
   .main .registration {
-    width: 75%;
+    width: 90%;
     height: 100%;
+    box-shadow: none;
+    border-radius: 0;
   }
 }
 @media (min-width: 600px) and (max-width: 768px) {
@@ -397,6 +399,8 @@
   .main .registration {
     width: 90%;
     height: 100%;
+    box-shadow: none;
+    border-radius: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {

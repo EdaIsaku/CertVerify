@@ -1,6 +1,7 @@
 const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
 const path = require('path');
+const schedule = require('node-schedule');
 
 //OAuth2 authentication
 const oAuth2Client = new google.auth.OAuth2(
@@ -17,14 +18,15 @@ const sendEmail = async (course, studentEmail, name, lName, id) => {
   try {
     //transporter object
     let transporter = nodemailer.createTransport({
-      service: 'gmail',
+      service: 'Gmail',
       auth: {
-        type: 'OAuth2',
+        // type: 'OAuth2',
         user: process.env.USER,
         pass: process.env.PASSWORD,
-        clientId: process.env.CLIENT_ID,
-        clientSecret: process.env.CLIENT_SECRET,
-        refreshToken: process.env.REFRESH_TOKEN,
+        // clientId: process.env.CLIENT_ID,
+        // clientSecret: process.env.CLIENT_SECRET,
+        // refreshToken: process.env.REFRESH_TOKEN,
+        // expires: 1484314697598,
       },
     });
     //details of email
@@ -50,4 +52,40 @@ const sendEmail = async (course, studentEmail, name, lName, id) => {
   }
 };
 
-module.exports = sendEmail;
+const sendErrors = async () => {
+  try {
+    //transporter object
+    let transporter = nodemailer.createTransport({
+      service: 'Gmail',
+      auth: {
+        user: process.env.USER,
+        pass: process.env.PASSWORD,
+      },
+    });
+    //details of email
+    let mailOptions = {
+      sender: 'QKUM',
+      from: 'qkum@gmail.com',
+      to: 'edaisaku0@gmail.com',
+      subject: 'Errors in CertVerify',
+      html: `<h3>Hello!</h3>
+             <br/>
+             <p>Errors in CertVerify for last 24H</p>
+             `,
+      attachments: [
+        {
+          filename: 'error.json',
+          path: path.join(__dirname, '../logger/error.log'),
+        },
+      ],
+    };
+    //schedule errors email everyday at 13:00
+    return await schedule.scheduleJob('00 00 13 * * *', function () {
+      transporter.sendMail(mailOptions);
+    });
+  } catch (error) {
+    console.log('Error ' + error);
+  }
+};
+
+module.exports = { sendEmail, sendErrors };

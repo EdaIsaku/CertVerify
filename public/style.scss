@@ -392,8 +392,10 @@
       display: none;
     }
     .registration {
-      width: 75%;
+      width: 90%;
       height: 100%;
+      box-shadow: none;
+      border-radius: 0;
     }
   }
 }
@@ -408,6 +410,8 @@
     .registration {
       width: 90%;
       height: 100%;
+      box-shadow: none;
+      border-radius: 0;
     }
   }
 }

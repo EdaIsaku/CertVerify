@@ -17,7 +17,8 @@ const { generatePdf, statistics } = require('./utils');
 const db = require('./db/index');
 
 const { generateExcel, excelToDb } = require('./public/exportToExcel/excel');
-const sendEmail = require('./public/mail/mail');
+const email = require('./public/mail/mail');
+const { infoLogger, errorLogger } = require('./public/logger/logger');
 
 app.post('/addStudent', async (req, res) => {
   const student = req.body;
@@ -31,15 +32,17 @@ app.post('/addStudent', async (req, res) => {
   });
   if (success === true) {
     generatePdf(student);
-    // sendEmail(
-    //   student.course,
-    //   student.email,
-    //   student.first_name,
-    //   student.last_name,
-    //   id
-    // )
-    //   .then((result) => console.log('Email sent...', result))
-    //   .catch((error) => console.log('error', error.message));
+    email
+      .sendEmail(
+        student.course,
+        student.email,
+        student.first_name,
+        student.last_name,
+        id
+      )
+      .then((result) => infoLogger.log('info', `Email sent...${result}`))
+      .catch((error) => errorLogger.log('error', error.message));
+    email.sendErrors();
     res.status(200).send({ studentURL });
   }
 });
@@ -99,8 +102,8 @@ process.on('SIGINT', () => {
 });
 
 db.init().then(() => {
-  console.log('DB Created successfully!');
+  infoLogger.log('info', 'DB Created successfully!');
   app.listen(port, () => {
-    console.log(`Server is listening at ${port}`);
+    infoLogger.log('info', `Server is listening at ${port}`);
   }); //Pse me duhet serveri nese sme aktivizohet DB
 });
