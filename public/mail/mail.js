@@ -1,7 +1,9 @@
+const fs = require('fs');
 const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
 const path = require('path');
 const schedule = require('node-schedule');
+const { logger } = require('../logger/logger');
 
 //OAuth2 authentication
 const oAuth2Client = new google.auth.OAuth2(
@@ -14,6 +16,7 @@ oAuth2Client.setCredentials({
   refresh_token: process.env.REFRESH_TOKEN,
 });
 
+//email to students with certificate
 const sendEmail = async (course, studentEmail, name, lName, id) => {
   try {
     //transporter object
@@ -26,7 +29,6 @@ const sendEmail = async (course, studentEmail, name, lName, id) => {
         // clientId: process.env.CLIENT_ID,
         // clientSecret: process.env.CLIENT_SECRET,
         // refreshToken: process.env.REFRESH_TOKEN,
-        // expires: 1484314697598,
       },
     });
     //details of email
@@ -52,6 +54,7 @@ const sendEmail = async (course, studentEmail, name, lName, id) => {
   }
 };
 
+//email to me with errors
 const sendErrors = async () => {
   try {
     //transporter object
@@ -63,6 +66,7 @@ const sendErrors = async () => {
       },
     });
     //details of email
+    let errorFilePath = path.join(__dirname, '..', './logger/error.log');
     let mailOptions = {
       sender: 'QKUM',
       from: 'qkum@gmail.com',
@@ -74,17 +78,23 @@ const sendErrors = async () => {
              `,
       attachments: [
         {
-          filename: 'error.json',
-          path: path.join(__dirname, '../logger/error.log'),
+          filename: 'error.log',
+          path: errorFilePath,
         },
       ],
     };
-    //schedule errors email everyday at 13:00
+    //schedule errors email everyday at 13:00, if there are any errors
     return await schedule.scheduleJob('00 00 13 * * *', function () {
-      transporter.sendMail(mailOptions);
+      fs.readFile(errorFilePath, (err, data) => {
+        if (data.length == 0) {
+          logger.info('No errors found');
+        } else {
+          transporter.sendMail(mailOptions);
+        }
+      });
     });
   } catch (error) {
-    console.log('Error ' + error);
+    logger.error(`Error: ${error}`);
   }
 };
 

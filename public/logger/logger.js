@@ -5,20 +5,18 @@ const myFormat = printf(({ level, message, timestamp }) => {
   return `${timestamp} ${level}: ${message}`;
 });
 
-const infoLogger = createLogger({
+const logger = createLogger({
   format: combine(timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }), myFormat),
   transports: [
-    new transports.Console(),
-    new transports.File({ filename: './public/logger/info.log' }),
+    new transports.File({
+      filename: './public/logger/info.log',
+      level: 'info',
+    }),
+    new transports.File({
+      filename: './public/logger/error.log',
+      level: 'error',
+    }),
   ],
 });
 
-const errorLogger = createLogger({
-  format: combine(timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }), myFormat),
-  transports: [
-    new transports.Console(),
-    new transports.File({ filename: './public/logger/error.log' }),
-  ],
-});
-
-module.exports = { infoLogger, errorLogger };
+module.exports = { logger };
