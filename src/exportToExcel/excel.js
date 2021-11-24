@@ -1,7 +1,8 @@
 const path = require('path');
 const ExcelJS = require('exceljs');
-const db = require('../../db');
-const { generatePdf } = require('../../utils');
+const db = require('../db/db');
+const { generatePdf } = require('../utils');
+const { logger } = require('../logger/logger');
 
 const excelPath = path.join(__dirname, '/Certificate.xlsx');
 
@@ -102,7 +103,7 @@ const excelToDb = async (filename) => {
     worksheets.forEach((worksheet) => {
       worksheet.eachRow({ includeEmpty: true }, (row) => {
         rows.push(row.values.slice(1));
-        console.log('added');
+        logger.info('added');
       });
     });
   });

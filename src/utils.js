@@ -1,22 +1,25 @@
 const fs = require('fs');
 const path = require('path');
-
-const db = require('./db');
-
 const { PDFDocument, StandardFonts } = require('pdf-lib');
 const QRCode = require('qrcode');
 const { DateTime } = require('luxon');
-
-const { logger } = require('./public/logger/logger');
+const db = require('./db/db');
+const { logger } = require('./logger/logger');
 
 const selectCertificate = (course) => {
   const certificate = fs.readFileSync(
-    `${__dirname}/assets/${course}_Certificate.pdf`
+    `${__dirname}/public/assets/${course}_Certificate.pdf`
   );
   return certificate;
 };
 
 const BLSD_Certificate = selectCertificate('BLSD');
+const BLS_T_Certificate = selectCertificate('BLS_T');
+
+const templates = {
+  BLSD: BLSD_Certificate,
+  BLS_T: BLS_T_Certificate,
+};
 
 //customize QRcode view
 var opts = {
@@ -44,14 +47,17 @@ const calcExpireDay = (registrationDay) => {
 };
 
 const generatePdf = async (student) => {
-  const { email, first_name, last_name, course_credit, course_date } = student;
+  const { course, email, first_name, last_name, course_credit, course_date } =
+    student;
   const studentFromDB = await db.findStudent(email);
   const id = await studentFromDB.id;
-  const BLSD_template = await PDFDocument.load(BLSD_Certificate);
-  BLSD_template.setAuthor('Eda Isaku');
-  const Courier = await BLSD_template.embedFont(StandardFonts.Courier);
+  const template = await PDFDocument.load(templates[course]);
 
-  const form = BLSD_template.getForm();
+  template.setAuthor('Eda Isaku');
+
+  const Courier = await template.embedFont(StandardFonts.Courier);
+
+  const form = template.getForm();
   const name = form.getField('name');
   const courseDate = form.getField('courseDate');
   const credit = form.getField('credit');
@@ -61,7 +67,7 @@ const generatePdf = async (student) => {
   const smallFontFields = [courseDate, expiredate, credit];
 
   const qrCodeURL = await generateQRCode(`http://192.168.0.102:3000/me/${id}`);
-  const qrImage = await BLSD_template.embedPng(qrCodeURL);
+  const qrImage = await template.embedPng(qrCodeURL);
   qrcode.setImage(qrImage);
 
   const fullName = `${first_name.toUpperCase()} ${last_name.toUpperCase()}`;
@@ -79,22 +85,24 @@ const generatePdf = async (student) => {
   });
 
   form.flatten();
-  const pdfBytes = await BLSD_template.save({ updateFieldAppearances: false });
+  const pdfBytes = await template.save({
+    updateFieldAppearances: false,
+  });
 
   fs.mkdir(
-    path.join(__dirname, 'BLSD_Certificates'),
+    path.join(__dirname, `${course}_Certificates`),
     { recursive: true },
     (err) => {
       if (err) {
-        return logger.error('error', err);
+        return logger.error('error ?', err);
       }
-      logger.info('info', 'Directory created successfully!');
+      logger.info('Directory created successfully!');
     }
   );
 
-  fs.writeFile(`./BLSD_Certificates/${id}.pdf`, pdfBytes, (err) => {
+  fs.writeFile(`./${course}_Certificates/${id}.pdf`, pdfBytes, (err) => {
     if (err) throw err;
-    logger.info('info', 'The file has been saved!');
+    logger.info('The file has been saved!');
   });
 };
 
@@ -125,4 +133,5 @@ const statistics = async () => {
     totalStudents,
   };
 };
+
 module.exports = { generatePdf, statistics };

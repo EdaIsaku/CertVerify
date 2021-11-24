@@ -14,11 +14,19 @@ app.use(express.static(staticPath));
 app.use(express.json());
 
 const { generatePdf, statistics } = require('./utils');
-const db = require('./db/index');
+const db = require('./db/db');
 
-const { generateExcel, excelToDb } = require('./public/exportToExcel/excel');
-const email = require('./public/mail/mail');
-const { logger } = require('./public/logger/logger');
+const { generateExcel, excelToDb } = require('./exportToExcel/excel');
+const email = require('./mail/mail');
+const { logger } = require('./logger/logger');
+
+app.get('/me/:id', async (req, res) => {
+  const { id } = req.params;
+  let filePath = path.join(__dirname, `BLSD_Certificates/${id}.pdf`);
+  const file = fs.createReadStream(filePath);
+  res.setHeader('Content-Type', 'application/pdf');
+  return file.pipe(res);
+});
 
 app.post('/addStudent', async (req, res) => {
   const student = req.body;
@@ -56,14 +64,6 @@ app.post('/findStudent', async (req, res) => {
       res.status(200).send(result);
     }
   });
-});
-
-app.get('/me/:id', async (req, res) => {
-  const { id } = req.params;
-  let filePath = path.join(__dirname, 'BLSD_Certificates', `${id}.pdf`);
-  const file = fs.createReadStream(filePath);
-  res.setHeader('Content-Type', 'application/pdf');
-  return file.pipe(res);
 });
 
 app.post('/findAllStudents', (req, res) => {

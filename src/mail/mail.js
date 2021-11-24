@@ -50,7 +50,7 @@ const sendEmail = async (course, studentEmail, name, lName, id) => {
     };
     return await transporter.sendMail(mailOptions);
   } catch (error) {
-    console.log('Error ' + error);
+    logger.error(`Error: ${error}`);
   }
 };
 

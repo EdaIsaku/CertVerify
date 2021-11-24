@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "nodemon app.js",
-    "lint": "eslint **/*.js",
-    "sass": "sass --watch ./public/style.scss:./public/style.css"
+    "dev": "nodemon ./src/app.js",
+    "lint": "eslint . --ext .js",
+    "sass": "sass --watch ./src/public/css/style.scss:./src/public/css/style.css"
   },
   "author": "Eda",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "prettier": "2.4.1"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "dotenv": "^10.0.0",
     "exceljs": "^4.3.0",
     "express": "^4.17.1",

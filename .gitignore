@@ -1,5 +1,5 @@
 /node_modules
-/db/*
+src/db/*
 /BLSD_Certificate/*
 /public/logger/error.log
 /public/logger/info.log
