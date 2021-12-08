@@ -4,3 +4,21 @@
 2021-11-23 00:08:11 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\08412079-5336-4f69-930a-e316a2dfabd8.pdf'
 2021-11-23 00:17:38 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\b443d06e-00dc-4279-b316-64bb4d86eeb1.pdf'
 2021-11-23 15:27:37 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\7d74be44-57f4-4890-be3a-ebda0b08dac4.pdf'
+2021-12-08 13:23:06 error: Error: Error: queryA EREFUSED smtp.gmail.com
+2021-12-08 13:24:50 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\639c0778-51f5-41a7-97dc-113b7813af04.pdf'
+2021-12-08 13:38:44 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\85e15736-43e5-4f87-9c6c-305cccbca99e.pdf'
+2021-12-08 13:47:09 error: error ? ENOENT: no such file or directory, mkdir 'C:\Users\edais\Desktop\C:\Users\edais\Desktop\CertVerify\src\BLSD_Certificates'
+2021-12-08 13:50:41 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\d366b91c-a742-4427-8a5f-37dc4a0f89f5.pdf'
+2021-12-08 13:57:10 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\f6dd7aed-1320-4eec-9424-b1fb3b5b91b1.pdf'
+2021-12-08 13:58:04 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\81445ea4-232e-46c6-b0c7-e0dff34a5ba2.pdf'
+2021-12-08 14:53:48 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\2058e9e3-5685-4789-a101-999bb4670c89.pdf'
+2021-12-08 15:05:24 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\2fddbddb-a3ae-46bb-9cc4-07d70ddb992d.pdf'
+2021-12-08 15:10:46 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\893ffbf4-184a-470b-8e8d-ae27f58309ad.pdf'
+2021-12-08 15:16:27 error: Error: Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor k21sm1994277edo.87 - gsmtp
+2021-12-08 15:17:30 error: Error: Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor my2sm1568623ejc.109 - gsmtp
+2021-12-08 15:19:41 error: Error: Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor h7sm2226073edb.89 - gsmtp
+2021-12-08 15:21:51 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\37823498-d306-4f68-8b6e-b54e562fefdd.pdf'
+2021-12-08 15:24:12 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\824f19e4-b9b5-41f1-89ff-e90302a82c13.pdf'

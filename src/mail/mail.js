@@ -23,14 +23,12 @@ const sendEmail = async (course, studentEmail, name, lName, id) => {
     let transporter = nodemailer.createTransport({
       service: 'Gmail',
       auth: {
-        // type: 'OAuth2',
         user: process.env.USER,
         pass: process.env.PASSWORD,
-        // clientId: process.env.CLIENT_ID,
-        // clientSecret: process.env.CLIENT_SECRET,
-        // refreshToken: process.env.REFRESH_TOKEN,
       },
     });
+    console.log(__dirname);
+
     //details of email
     let mailOptions = {
       sender: 'QKUM',
@@ -44,7 +42,7 @@ const sendEmail = async (course, studentEmail, name, lName, id) => {
       attachments: [
         {
           filename: `${name}_${lName}.pdf`,
-          path: path.join(__dirname, '../../BLSD_Certificates', `${id}.pdf`),
+          path: path.join(__dirname, '..', './BLSD_Certificates', `${id}.pdf`),
         },
       ],
     };

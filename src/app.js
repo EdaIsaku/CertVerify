@@ -13,19 +13,61 @@ const staticPath = path.join(__dirname, '/public');
 app.use(express.static(staticPath));
 app.use(express.json());
 
-const { generatePdf, statistics } = require('./utils');
+const {
+  generatePdf,
+  statistics,
+  hashPassword,
+  comparePassword,
+} = require('./utils');
 const db = require('./db/db');
 
 const { generateExcel, excelToDb } = require('./exportToExcel/excel');
 const email = require('./mail/mail');
 const { logger } = require('./logger/logger');
 
+app.get('/main', (req, res) => {
+  res.sendFile(path.join(__dirname, './public/main.html'));
+});
+
+//TODO dynamic course name
 app.get('/me/:id', async (req, res) => {
   const { id } = req.params;
-  let filePath = path.join(__dirname, `BLSD_Certificates/${id}.pdf`);
+  let filePath = path.join(__dirname, `/BLSD_Certificates/${id}.pdf`);
   const file = fs.createReadStream(filePath);
   res.setHeader('Content-Type', 'application/pdf');
   return file.pipe(res);
+});
+
+app.post('/addUser', async (req, res) => {
+  const { username, password } = req.body;
+  let existingUser = await db.findUser(username).then((res) => {
+    return res;
+  });
+  if (existingUser === undefined) {
+    let user = {};
+    user['username'] = username;
+    hashPassword(password, (hash) => {
+      user['password'] = hash;
+      db.addUser(user);
+    });
+    res.status(200).send(`${user.username} can now register students!`);
+  } else {
+    res.status(400).send({ message: 'Already registered as an admin!' });
+  }
+});
+
+app.post('/findUser', async (req, res) => {
+  const { username, password } = req.body;
+  const user = await db.findUser(username);
+  if (user) {
+    if (await comparePassword(password, user.password)) {
+      res.status(200).send(user);
+    } else {
+      res.status(400).send({ message: 'Incorrect password' });
+    }
+  } else {
+    res.status(400).send({ message: `No admin with ${username} username` });
+  }
 });
 
 app.post('/addStudent', async (req, res) => {
@@ -48,7 +90,10 @@ app.post('/addStudent', async (req, res) => {
         student.last_name,
         id
       )
-      .then((result) => logger.info('info', `Email sent...${result}`))
+      .then((result) => {
+        console.log('email sent');
+        logger.info('info', `Email sent...${result}`);
+      })
       .catch((error) => logger.error('error', error.message));
     email.sendErrors();
     res.status(200).send({ studentURL });

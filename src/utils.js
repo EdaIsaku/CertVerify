@@ -6,6 +6,9 @@ const { DateTime } = require('luxon');
 const db = require('./db/db');
 const { logger } = require('./logger/logger');
 
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
+
 const selectCertificate = (course) => {
   const certificate = fs.readFileSync(
     `${__dirname}/public/assets/${course}_Certificate.pdf`
@@ -66,7 +69,7 @@ const generatePdf = async (student) => {
 
   const smallFontFields = [courseDate, expiredate, credit];
 
-  const qrCodeURL = await generateQRCode(`http://192.168.0.102:3000/me/${id}`);
+  const qrCodeURL = await generateQRCode(`http://192.168.0.105:3000/me/${id}`);
   const qrImage = await template.embedPng(qrCodeURL);
   qrcode.setImage(qrImage);
 
@@ -88,9 +91,8 @@ const generatePdf = async (student) => {
   const pdfBytes = await template.save({
     updateFieldAppearances: false,
   });
-
   fs.mkdir(
-    path.join(__dirname, `${course}_Certificates`),
+    path.join(__dirname, `/${course}_Certificates`),
     { recursive: true },
     (err) => {
       if (err) {
@@ -99,8 +101,7 @@ const generatePdf = async (student) => {
       logger.info('Directory created successfully!');
     }
   );
-
-  fs.writeFile(`./${course}_Certificates/${id}.pdf`, pdfBytes, (err) => {
+  fs.writeFile(`./src/${course}_Certificates/${id}.pdf`, pdfBytes, (err) => {
     if (err) throw err;
     logger.info('The file has been saved!');
   });
@@ -134,4 +135,25 @@ const statistics = async () => {
   };
 };
 
-module.exports = { generatePdf, statistics };
+//administrator registration
+const hashPassword = (password, cb) => {
+  bcrypt.genSalt(saltRounds, (err, salt) => {
+    return bcrypt.hash(password, salt, (err, hash) => {
+      let hashedPass = hash;
+      cb(hashedPass);
+    });
+  });
+};
+
+const comparePassword = (password, hash) => {
+  return new Promise((resolve, reject) => {
+    bcrypt.compare(password, hash, (err, result) => {
+      if (err) {
+        return reject(err);
+      }
+      resolve(result);
+    });
+  });
+};
+
+module.exports = { generatePdf, statistics, hashPassword, comparePassword };
