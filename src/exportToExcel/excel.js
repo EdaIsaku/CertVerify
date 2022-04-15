@@ -103,6 +103,7 @@ const excelToDb = async (filename) => {
     worksheets.forEach((worksheet) => {
       worksheet.eachRow({ includeEmpty: true }, (row) => {
         rows.push(row.values.slice(1));
+        console.log('added from excel');
         logger.info('added');
       });
     });

@@ -22,3 +22,54 @@
 534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor h7sm2226073edb.89 - gsmtp
 2021-12-08 15:21:51 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\37823498-d306-4f68-8b6e-b54e562fefdd.pdf'
 2021-12-08 15:24:12 error: Error: Error: ENOENT: no such file or directory, open 'C:\Users\edais\Desktop\CertVerify\BLSD_Certificates\824f19e4-b9b5-41f1-89ff-e90302a82c13.pdf'
+2021-12-08 23:25:02 error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2021-12-08 23:28:47 error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2021-12-08 23:43:20 error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2021-12-09 08:47:56 error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2021-12-09 08:54:20 error: The argument 'path' must be a string or Uint8Array without null bytes. Received <Buffer 50 4b 03 04 14 00 06 00 08 00 00 00 21 00 4a 73 d2 d8 6d 01 00 00 28 06 00 00 13 00 08 02 5b 43 6f 6e 74 65 6e 74 5f 54 ...
+2021-12-09 08:55:34 error: The argument 'path' must be a string or Uint8Array without null bytes. Received <Buffer 50 4b 03 04 14 00 06 00 08 00 00 00 21 00 4a 73 d2 d8 6d 01 00 00 28 06 00 00 13 00 08 02 5b 43 6f 6e 74 65 6e 74 5f 54 ...
+2021-12-09 09:00:46 error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2021-12-09 09:04:44 error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2021-12-09 09:36:02 error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2021-12-09 09:36:48 error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2021-12-09 14:03:22 error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2021-12-17 14:01:05 error: Error: Error: getaddrinfo ENOTFOUND smtp.gmail.com
+2021-12-17 14:03:18 error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2022-04-09 12:24:43 error: Error: Error: self signed certificate in certificate chain
+2022-04-09 12:26:43 error: Error: Error: self signed certificate in certificate chain
+2022-04-10 09:29:37 error: Error: Error: self signed certificate in certificate chain
+2022-04-10 09:42:01 error: Error: Error: self signed certificate in certificate chain
+2022-04-10 09:45:17 error: Error: Error: self signed certificate in certificate chain
+2022-04-10 09:46:44 error: Error: Error: self signed certificate in certificate chain
+2022-04-13 21:37:58 error: Error: Error: self signed certificate in certificate chain
+2022-04-13 21:45:01 error: Error: Error: self signed certificate in certificate chain
+2022-04-13 22:52:58 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 10:25:40 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 10:28:24 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 10:38:45 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 10:39:23 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 11:11:32 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 11:37:28 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 11:38:25 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 11:39:15 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 11:39:41 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 11:39:58 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 11:47:21 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 15:18:40 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 15:20:46 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 15:29:30 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 15:31:10 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 15:52:59 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 15:54:00 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 15:58:01 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 15:59:19 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 16:02:26 error: Error: Error: self signed certificate in certificate chain
+2022-04-14 16:03:57 error: Error: Error: self signed certificate in certificate chain
+2022-04-15 08:23:42 error: Error: Error: self signed certificate in certificate chain
+2022-04-15 08:26:20 error: Error: Error: self signed certificate in certificate chain
+2022-04-15 08:33:34 error: Error: Error: self signed certificate in certificate chain
+2022-04-15 08:35:41 error: Error: Error: self signed certificate in certificate chain
+2022-04-15 08:48:47 error: Error: Error: self signed certificate in certificate chain
+2022-04-15 08:53:36 error: Error: Error: self signed certificate in certificate chain
+2022-04-15 08:54:27 error: Error: Error: self signed certificate in certificate chain
+2022-04-15 09:17:14 error: Error: Error: self signed certificate in certificate chain

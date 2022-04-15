@@ -12,6 +12,7 @@ const lName = getElement('.lName');
 const studentEmail = getElement('.email');
 const studentID = getElement('.studentID');
 const form = getElement('.form');
+const submit = getElement('.submit');
 const reset = getElement('.course__reset__input');
 const courseName = getElement('.course__name__select');
 const courseDate = getElement('.course__date__input');
@@ -40,11 +41,17 @@ user__initials.addEventListener('mouseenter', () => {
 });
 //#endregion
 
+let isUserInStorage = window.localStorage.getItem('user');
+if (!isUserInStorage) {
+  loader.style.visibility = 'visible';
+  window.location.replace('http://127.0.0.1:3000/');
+}
+
 // signout on click
 user__initials.addEventListener('click', () => {
   loader.style.visibility = 'visible';
   window.localStorage.removeItem('user');
-  window.location = 'http://127.0.0.1:3000/';
+  window.location.replace('http://127.0.0.1:3000/');
 });
 
 // create new course
@@ -244,12 +251,14 @@ const uploadFile = (inputFile) => {
     method: 'POST',
     body: form,
   }).then((res) => {
+    console.log(res.json());
     return res.json();
   });
 };
 
 import__excel.addEventListener('change', (ev) => {
   submit.value = ev.target.files[0].name;
+  console.log(ev.target.files[0]);
   uploadFile(ev.target.files[0]);
 });
 

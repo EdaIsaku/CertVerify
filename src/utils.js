@@ -18,10 +18,14 @@ const selectCertificate = (course) => {
 
 const BLSD_Certificate = selectCertificate('BLSD');
 const BLS_T_Certificate = selectCertificate('BLS_T');
+const ACLS_Certificate = selectCertificate('ACLS');
+const TH_Certificate = selectCertificate('TH');
 
 const templates = {
   BLSD: BLSD_Certificate,
   BLS_T: BLS_T_Certificate,
+  ACLS: ACLS_Certificate,
+  TH: TH_Certificate,
 };
 
 //customize QRcode view
@@ -92,7 +96,7 @@ const generatePdf = async (student) => {
     updateFieldAppearances: false,
   });
   fs.mkdir(
-    path.join(__dirname, `/${course}_Certificates`),
+    path.join(__dirname, `/Certificates/${course}_Certificates`),
     { recursive: true },
     (err) => {
       if (err) {
@@ -101,10 +105,14 @@ const generatePdf = async (student) => {
       logger.info('Directory created successfully!');
     }
   );
-  fs.writeFile(`./src/${course}_Certificates/${id}.pdf`, pdfBytes, (err) => {
-    if (err) throw err;
-    logger.info('The file has been saved!');
-  });
+  fs.writeFile(
+    `./src/Certificates/${course}_Certificates/${id}.pdf`,
+    pdfBytes,
+    (err) => {
+      if (err) throw err;
+      logger.info('The file has been saved!');
+    }
+  );
 };
 
 const statistics = async () => {

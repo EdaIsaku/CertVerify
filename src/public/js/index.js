@@ -27,7 +27,7 @@ signInForm.addEventListener('submit', async (ev) => {
           return notifyError(res.message);
         }
         loader.style.visibility = 'visible';
-        window.location.href = 'http://127.0.0.1:3000/main';
+        window.location.replace('http://127.0.0.1:3000/main');
         window.localStorage.setItem('user', res.username);
       });
   } else {

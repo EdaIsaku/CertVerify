@@ -26,13 +26,15 @@ const email = require('./mail/mail');
 const { logger } = require('./logger/logger');
 
 app.get('/main', (req, res) => {
-  res.sendFile(path.join(__dirname, './public/main.html'));
+  res.status(200).sendFile(path.join(__dirname, './public/main.html'));
 });
 
-//TODO dynamic course name
-app.get('/me/:id', async (req, res) => {
-  const { id } = req.params;
-  let filePath = path.join(__dirname, `/BLSD_Certificates/${id}.pdf`);
+app.get('/me/:course/:id', async (req, res) => {
+  const { id, course } = req.params;
+  let filePath = path.join(
+    __dirname,
+    `/Certificates/${course}_Certificates/${id}.pdf`
+  );
   const file = fs.createReadStream(filePath);
   res.setHeader('Content-Type', 'application/pdf');
   return file.pipe(res);
@@ -73,13 +75,14 @@ app.post('/findUser', async (req, res) => {
 app.post('/addStudent', async (req, res) => {
   const student = req.body;
   const id = uuid4();
-  const studentURL = `/me/${id}`;
+  const studentURL = `me/${student.course}/${id}`;
   let success = await db.addStudent(student, id).catch((err) => {
     res.status(400).send({
       status: err.status,
-      message: 'Student already registered',
+      message: 'Student already registered!',
     });
   });
+
   if (success === true) {
     generatePdf(student);
     email
@@ -136,10 +139,11 @@ app.post('/uploadExcelFile', upload.single('filename'), async (req, res) => {
   const { fileBuffer } = req.file.buffer;
   try {
     await excelToDb(fileBuffer);
+    res.status(200).send('ok');
   } catch (error) {
     logger.error(error);
+    console.log(error);
   }
-  res.status(200).send('ok');
 });
 
 process.on('SIGINT', () => {
@@ -152,3 +156,7 @@ db.init().then(() => {
     logger.info(`Server is listening at ${port}`);
   });
 });
+
+module.exports = {
+  app,
+};

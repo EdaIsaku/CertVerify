@@ -27,7 +27,6 @@ const sendEmail = async (course, studentEmail, name, lName, id) => {
         pass: process.env.PASSWORD,
       },
     });
-    console.log(__dirname);
 
     //details of email
     let mailOptions = {
@@ -42,7 +41,13 @@ const sendEmail = async (course, studentEmail, name, lName, id) => {
       attachments: [
         {
           filename: `${name}_${lName}.pdf`,
-          path: path.join(__dirname, '..', './BLSD_Certificates', `${id}.pdf`),
+          path: path.join(
+            __dirname,
+            '../Certificates./',
+            course,
+            '_Certificates',
+            `${id}.pdf`
+          ),
         },
       ],
     };

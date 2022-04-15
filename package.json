@@ -4,8 +4,9 @@
   "description": "Certificate Verification System",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch --verbose",
     "dev": "nodemon ./src/app.js",
+    "prod": "pm2 start ./src/app.js",
     "lint": "eslint . --ext .js",
     "sass": "sass --watch ./src/public/css/style.scss:./src/public/css/style.css"
   },
@@ -13,11 +14,14 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.0.1",
-    "prettier": "2.4.1"
+    "jest": "^27.5.1",
+    "prettier": "2.4.1",
+    "supertest": "^6.2.2"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "dotenv": "^10.0.0",
+    "eslint-plugin-jest": "^26.1.4",
     "exceljs": "^4.3.0",
     "express": "^4.17.1",
     "googleapis": "^91.0.0",

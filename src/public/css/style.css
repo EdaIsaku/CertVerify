@@ -357,6 +357,9 @@ body {
   margin-bottom: 2px;
   transition: all 0.4s ease-out;
 }
+.course__reset__input::after {
+  background-color: #12465a;
+}
 .course__reset__input:hover {
   color: #e70312;
   background: #fff;

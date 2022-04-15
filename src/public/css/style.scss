@@ -349,6 +349,9 @@ body {
       padding: 8px 0;
       margin-bottom: 2px;
       transition: all 0.4s ease-out;
+      &::after {
+        background-color: #12465a;
+      }
       &:hover {
         color: #e70312;
         background: #fff;
@@ -644,6 +647,7 @@ body {
   }
 }
 
+// logout tooltip
 .tooltip {
   display: inline-block;
   position: relative;
