@@ -4,7 +4,7 @@
   "description": "Certificate Verification System",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch --verbose",
+    "test": "jest --coverage --watch --verbose",
     "dev": "nodemon ./src/app.js",
     "prod": "pm2 start ./src/app.js",
     "lint": "eslint . --ext .js",

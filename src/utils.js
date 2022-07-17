@@ -15,6 +15,7 @@ const selectCertificate = (course) => {
   );
   return certificate;
 };
+// console.log(Buffer.from(selectCertificate('BLSD')).toString());
 
 const BLSD_Certificate = selectCertificate('BLSD');
 const BLS_T_Certificate = selectCertificate('BLS_T');
@@ -164,4 +165,11 @@ const comparePassword = (password, hash) => {
   });
 };
 
-module.exports = { generatePdf, statistics, hashPassword, comparePassword };
+module.exports = {
+  selectCertificate,
+  calcExpireDay,
+  generatePdf,
+  statistics,
+  hashPassword,
+  comparePassword,
+};

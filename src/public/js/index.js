@@ -14,7 +14,7 @@ signInForm.addEventListener('submit', async (ev) => {
   ev.preventDefault();
   const user = { username: username.value, password: password.value };
   if (user.username !== '' && user.password !== '') {
-    fetch('./findUser', {
+    fetch('./findAdmin', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -2598,3 +2598,1532 @@
 2022-04-15 09:21:47 info: Database is Closing...
 2022-04-15 09:21:49 info: DB Created successfully!
 2022-04-15 09:21:49 info: Server is listening at 3000
+2022-04-15 11:25:03 info: DB Created successfully!
+2022-04-15 11:25:03 info: Server is listening at 3000
+2022-04-15 18:25:06 info: Database is Closing...
+2022-04-15 18:25:13 info: DB Created successfully!
+2022-04-15 18:25:13 info: Server is listening at 3000
+2022-04-15 18:25:20 info: Database is Closing...
+2022-04-15 18:25:24 info: DB Created successfully!
+2022-04-15 18:25:24 info: Server is listening at 3000
+2022-04-15 18:29:30 info: Database is Closing...
+2022-04-15 18:29:34 info: DB Created successfully!
+2022-04-15 18:29:34 info: Server is listening at 3000
+2022-04-15 18:30:14 info: Database is Closing...
+2022-04-15 18:30:18 info: DB Created successfully!
+2022-04-15 18:30:18 info: Server is listening at 3000
+2022-04-15 18:31:44 info: Database is Closing...
+2022-04-15 18:31:48 info: DB Created successfully!
+2022-04-15 18:31:48 info: Server is listening at 3000
+2022-04-15 18:39:07 info: Database is Closing...
+2022-04-15 18:39:12 info: DB Created successfully!
+2022-04-15 18:39:12 info: Server is listening at 3000
+2022-04-15 18:39:19 info: Database is Closing...
+2022-04-15 18:39:22 info: DB Created successfully!
+2022-04-15 18:39:22 info: Server is listening at 3000
+2022-04-15 18:40:09 info: Database is Closing...
+2022-04-15 18:40:12 info: DB Created successfully!
+2022-04-15 18:40:12 info: Server is listening at 3000
+2022-04-15 18:40:33 info: DB Created successfully!
+2022-04-15 18:40:33 info: Successfully deleted
+2022-04-15 18:40:57 info: Database is Closing...
+2022-04-15 18:41:01 info: DB Created successfully!
+2022-04-15 18:41:05 info: DB Created successfully!
+2022-04-15 18:41:05 info: Successfully deleted
+2022-04-15 22:24:29 info: DB Created successfully!
+2022-04-15 22:24:29 info: Successfully deleted
+2022-04-16 14:43:23 info: DB Created successfully!
+2022-04-16 14:43:23 info: Successfully deleted
+2022-04-16 14:43:31 info: DB Created successfully!
+2022-04-16 14:43:31 info: Successfully deleted
+2022-04-16 14:51:09 info: DB Created successfully!
+2022-04-16 14:51:09 info: Successfully deleted
+2022-04-16 14:51:41 info: DB Created successfully!
+2022-04-16 14:51:41 info: Successfully deleted
+2022-04-16 14:51:52 info: DB Created successfully!
+2022-04-16 14:51:52 info: Server is listening at 3000
+2022-04-16 14:51:52 info: Successfully deleted
+2022-04-16 14:51:54 info: DB Created successfully!
+2022-04-16 14:51:54 info: Server is listening at 3000
+2022-04-16 14:52:00 info: DB Created successfully!
+2022-04-16 14:52:00 info: Successfully deleted
+2022-04-16 14:52:40 info: Database is Closing...
+2022-04-16 14:52:43 info: DB Created successfully!
+2022-04-16 14:52:43 info: Server is listening at 3000
+2022-04-16 14:52:46 info: DB Created successfully!
+2022-04-16 14:52:46 info: Successfully deleted
+2022-04-16 14:55:04 info: Database is Closing...
+2022-04-16 14:55:07 info: DB Created successfully!
+2022-04-16 14:55:07 info: Server is listening at 3000
+2022-04-16 14:55:11 info: DB Created successfully!
+2022-04-16 14:55:11 info: Successfully deleted
+2022-04-16 14:55:27 info: new patient added in DB
+2022-04-16 14:55:29 error: Error: Error: self signed certificate in certificate chain
+2022-04-16 14:55:29 info: info
+2022-04-16 14:55:29 info: Directory created successfully!
+2022-04-16 14:55:29 info: The file has been saved!
+2022-04-16 14:56:41 info: Database is Closing...
+2022-04-16 14:56:53 info: DB Created successfully!
+2022-04-16 14:56:53 info: Server is listening at 3000
+2022-04-16 14:56:54 info: DB Created successfully!
+2022-04-16 14:56:54 info: Successfully deleted
+2022-04-16 14:57:17 info: Database is Closing...
+2022-04-16 14:57:23 info: DB Created successfully!
+2022-04-16 14:57:23 info: Server is listening at 3000
+2022-04-16 14:57:28 info: DB Created successfully!
+2022-04-16 14:57:29 info: Successfully deleted
+2022-04-16 15:04:03 info: Database is Closing...
+2022-04-16 15:04:32 info: DB Created successfully!
+2022-04-16 15:04:32 info: Server is listening at 3000
+2022-04-16 15:04:32 info: Successfully deleted
+2022-04-16 15:04:36 info: DB Created successfully!
+2022-04-16 15:04:36 info: Server is listening at 3000
+2022-04-16 15:05:24 info: Database is Closing...
+2022-04-16 15:05:27 info: DB Created successfully!
+2022-04-16 15:05:27 info: Server is listening at 3000
+2022-04-16 15:05:31 info: DB Created successfully!
+2022-04-16 15:05:31 info: Successfully deleted
+2022-04-16 15:05:34 info: Database is Closing...
+2022-04-16 15:05:38 info: DB Created successfully!
+2022-04-16 15:05:38 info: Server is listening at 3000
+2022-04-16 15:05:40 info: DB Created successfully!
+2022-04-16 15:05:41 info: Successfully deleted
+2022-04-16 15:14:39 info: Database is Closing...
+2022-04-16 15:14:43 info: DB Created successfully!
+2022-04-16 15:14:43 info: Server is listening at 3000
+2022-04-16 15:14:46 info: DB Created successfully!
+2022-04-16 15:14:46 info: Successfully deleted
+2022-04-16 15:15:36 info: Database is Closing...
+2022-04-16 15:15:39 info: DB Created successfully!
+2022-04-16 15:15:39 info: Server is listening at 3000
+2022-04-16 15:15:43 info: DB Created successfully!
+2022-04-16 15:15:43 info: Successfully deleted
+2022-04-16 15:15:57 info: Database is Closing...
+2022-04-16 15:16:01 info: DB Created successfully!
+2022-04-16 15:16:04 info: DB Created successfully!
+2022-04-16 15:16:04 info: Successfully deleted
+2022-04-16 15:16:55 info: DB Created successfully!
+2022-04-16 15:16:55 info: Successfully deleted
+2022-04-16 15:18:48 info: DB Created successfully!
+2022-04-16 15:18:48 info: Successfully deleted
+2022-04-16 15:19:03 info: DB Created successfully!
+2022-04-16 15:19:06 info: DB Created successfully!
+2022-04-16 15:19:07 info: Successfully deleted
+2022-04-16 15:20:58 info: DB Created successfully!
+2022-04-16 15:21:01 info: DB Created successfully!
+2022-04-16 15:21:02 info: Successfully deleted
+2022-04-16 15:21:29 info: DB Created successfully!
+2022-04-16 15:21:29 info: Successfully deleted
+2022-04-16 15:21:51 info: DB Created successfully!
+2022-04-16 15:21:55 info: DB Created successfully!
+2022-04-16 15:21:55 info: Successfully deleted
+2022-04-16 15:22:17 info: DB Created successfully!
+2022-04-16 15:22:21 info: DB Created successfully!
+2022-04-16 15:22:21 info: Successfully deleted
+2022-04-16 15:23:25 info: DB Created successfully!
+2022-04-16 15:23:29 info: DB Created successfully!
+2022-04-16 15:23:29 info: Successfully deleted
+2022-04-16 15:31:47 info: DB Created successfully!
+2022-04-16 15:31:51 info: DB Created successfully!
+2022-04-16 15:31:51 info: Successfully deleted
+2022-04-16 15:36:35 info: DB Created successfully!
+2022-04-16 15:36:35 info: DB Created successfully!
+2022-04-16 15:36:35 info: Successfully deleted
+2022-04-16 15:47:39 info: DB Created successfully!
+2022-04-16 15:47:39 info: Successfully deleted
+2022-04-16 15:48:03 info: DB Created successfully!
+2022-04-16 15:48:21 info: DB Created successfully!
+2022-04-16 15:48:41 info: DB Created successfully!
+2022-04-16 15:48:42 info: Successfully deleted
+2022-04-16 15:49:14 info: DB Created successfully!
+2022-04-16 15:49:18 info: DB Created successfully!
+2022-04-16 15:49:18 info: Successfully deleted
+2022-04-16 15:49:23 info: DB Created successfully!
+2022-04-16 15:49:27 info: DB Created successfully!
+2022-04-16 15:49:27 info: Successfully deleted
+2022-04-16 15:49:46 info: DB Created successfully!
+2022-04-16 15:49:50 info: DB Created successfully!
+2022-04-16 15:49:50 info: Successfully deleted
+2022-04-16 15:49:55 info: DB Created successfully!
+2022-04-16 15:49:59 info: DB Created successfully!
+2022-04-16 15:49:59 info: Successfully deleted
+2022-04-16 15:50:09 info: DB Created successfully!
+2022-04-16 15:50:13 info: DB Created successfully!
+2022-04-16 15:50:13 info: Successfully deleted
+2022-04-16 15:50:21 info: DB Created successfully!
+2022-04-16 15:50:25 info: DB Created successfully!
+2022-04-16 15:50:25 info: Successfully deleted
+2022-04-16 15:50:39 info: DB Created successfully!
+2022-04-16 15:50:43 info: DB Created successfully!
+2022-04-16 15:50:43 info: Successfully deleted
+2022-04-16 15:51:36 info: DB Created successfully!
+2022-04-16 15:51:40 info: DB Created successfully!
+2022-04-16 15:51:40 info: Successfully deleted
+2022-04-16 15:51:51 info: DB Created successfully!
+2022-04-16 15:51:51 info: Successfully deleted
+2022-04-16 15:56:26 info: DB Created successfully!
+2022-04-16 15:56:26 info: Successfully deleted
+2022-04-16 15:56:58 info: DB Created successfully!
+2022-04-16 15:57:02 info: DB Created successfully!
+2022-04-16 15:57:02 info: Successfully deleted
+2022-04-16 15:57:26 info: DB Created successfully!
+2022-04-16 15:57:30 info: DB Created successfully!
+2022-04-16 15:57:31 info: Successfully deleted
+2022-04-16 15:57:49 info: DB Created successfully!
+2022-04-16 15:57:53 info: DB Created successfully!
+2022-04-16 15:57:53 info: Successfully deleted
+2022-04-16 15:58:32 info: DB Created successfully!
+2022-04-16 15:58:36 info: DB Created successfully!
+2022-04-16 15:58:37 info: DB Created successfully!
+2022-04-16 15:58:37 info: Successfully deleted
+2022-04-16 15:58:59 info: DB Created successfully!
+2022-04-16 15:59:02 info: DB Created successfully!
+2022-04-16 15:59:02 info: Successfully deleted
+2022-04-16 16:00:05 info: DB Created successfully!
+2022-04-16 16:00:05 info: Successfully deleted
+2022-04-16 16:00:06 info: DB Created successfully!
+2022-04-16 16:00:06 info: Successfully deleted
+2022-04-16 16:00:14 info: DB Created successfully!
+2022-04-16 16:00:14 info: Successfully deleted
+2022-04-16 16:00:51 info: DB Created successfully!
+2022-04-16 16:00:51 info: Successfully deleted
+2022-04-16 16:05:30 info: DB Created successfully!
+2022-04-16 16:05:31 info: Successfully deleted
+2022-04-16 16:05:36 info: DB Created successfully!
+2022-04-16 16:05:36 info: Successfully deleted
+2022-04-16 16:05:56 info: DB Created successfully!
+2022-04-16 16:05:56 info: Successfully deleted
+2022-04-16 16:07:33 info: DB Created successfully!
+2022-04-16 16:07:33 info: Successfully deleted
+2022-04-16 16:08:15 info: DB Created successfully!
+2022-04-16 16:08:15 info: Successfully deleted
+2022-04-16 16:10:07 info: DB Created successfully!
+2022-04-16 16:10:07 info: Successfully deleted
+2022-04-16 16:10:21 info: DB Created successfully!
+2022-04-16 16:10:21 info: Successfully deleted
+2022-04-16 16:11:28 info: DB Created successfully!
+2022-04-16 16:11:29 info: Successfully deleted
+2022-04-16 16:15:54 info: DB Created successfully!
+2022-04-16 16:15:54 info: Successfully deleted
+2022-04-16 16:17:40 info: DB Created successfully!
+2022-04-16 16:17:40 info: Successfully deleted
+2022-04-16 18:16:50 info: DB Created successfully!
+2022-04-16 18:16:51 info: Successfully deleted
+2022-04-16 18:17:00 info: DB Created successfully!
+2022-04-16 18:17:01 info: Successfully deleted
+2022-04-16 18:26:22 info: DB Created successfully!
+2022-04-16 18:26:22 info: Successfully deleted
+2022-04-16 18:35:39 info: DB Created successfully!
+2022-04-16 18:35:44 info: Successfully deleted
+2022-04-16 18:37:21 info: DB Created successfully!
+2022-04-16 18:37:22 info: Successfully deleted
+2022-04-16 18:39:32 info: DB Created successfully!
+2022-04-16 18:39:32 info: Successfully deleted
+2022-04-16 19:23:07 info: DB Created successfully!
+2022-04-16 19:23:08 info: Successfully deleted
+2022-04-16 19:23:08 info: DB Created successfully!
+2022-04-16 19:23:08 info: Successfully deleted
+2022-04-16 19:29:56 info: DB Created successfully!
+2022-04-16 19:29:56 info: Successfully deleted
+2022-04-16 19:30:10 info: DB Created successfully!
+2022-04-16 19:30:11 info: Successfully deleted
+2022-04-16 19:30:24 info: DB Created successfully!
+2022-04-16 19:30:24 info: Successfully deleted
+2022-04-16 19:30:41 info: DB Created successfully!
+2022-04-16 19:30:41 info: Server is listening at 3000
+2022-04-16 19:30:41 info: Successfully deleted
+2022-04-16 19:30:48 info: DB Created successfully!
+2022-04-16 19:30:48 info: Server is listening at 3000
+2022-04-16 19:30:48 info: Successfully deleted
+2022-04-16 19:32:00 info: DB Created successfully!
+2022-04-16 19:32:00 info: Server is listening at 3000
+2022-04-16 19:32:00 info: Successfully deleted
+2022-04-16 19:32:20 info: DB Created successfully!
+2022-04-16 19:32:20 info: Server is listening at 3000
+2022-04-16 19:32:21 info: Successfully deleted
+2022-04-16 19:33:28 info: DB Created successfully!
+2022-04-16 19:33:28 info: Server is listening at 3000
+2022-04-16 19:33:28 info: Successfully deleted
+2022-04-16 19:33:39 info: DB Created successfully!
+2022-04-16 19:33:39 info: Server is listening at 3000
+2022-04-16 19:33:49 info: DB Created successfully!
+2022-04-16 19:33:49 info: Server is listening at 3000
+2022-04-16 19:34:13 info: DB Created successfully!
+2022-04-16 19:34:13 info: Server is listening at 3000
+2022-04-16 19:34:28 info: DB Created successfully!
+2022-04-16 19:34:28 info: Server is listening at 3000
+2022-04-16 19:35:29 info: DB Created successfully!
+2022-04-16 19:35:29 info: Server is listening at 3000
+2022-04-16 19:36:25 info: DB Created successfully!
+2022-04-16 19:36:25 info: Server is listening at 3000
+2022-04-16 19:36:32 info: Database is Closing...
+2022-04-16 19:37:03 info: DB Created successfully!
+2022-04-16 19:37:03 info: Server is listening at 3000
+2022-04-16 19:37:21 info: DB Created successfully!
+2022-04-16 19:37:21 info: Server is listening at 3000
+2022-04-16 19:37:21 info: Successfully deleted
+2022-04-16 19:37:37 info: DB Created successfully!
+2022-04-16 19:37:37 info: Server is listening at 3000
+2022-04-16 19:37:37 info: Successfully deleted
+2022-04-16 19:38:11 info: DB Created successfully!
+2022-04-16 19:38:11 info: Server is listening at 3000
+2022-04-16 19:38:11 info: Successfully deleted
+2022-04-16 19:38:53 info: DB Created successfully!
+2022-04-16 19:38:53 info: Server is listening at 3000
+2022-04-16 19:38:53 info: Successfully deleted
+2022-04-16 19:39:39 info: DB Created successfully!
+2022-04-16 19:39:39 info: Server is listening at 3000
+2022-04-16 19:39:39 info: Successfully deleted
+2022-04-16 19:40:22 info: DB Created successfully!
+2022-04-16 19:40:22 info: Server is listening at 3000
+2022-04-16 19:40:22 info: Successfully deleted
+2022-04-16 19:40:50 info: DB Created successfully!
+2022-04-16 19:40:50 info: Successfully deleted
+2022-04-16 19:44:25 info: DB Created successfully!
+2022-04-16 19:44:25 info: Successfully deleted
+2022-04-16 19:44:37 info: DB Created successfully!
+2022-04-16 19:44:37 info: Successfully deleted
+2022-04-16 19:46:46 info: DB Created successfully!
+2022-04-16 19:46:46 info: Successfully deleted
+2022-04-16 19:49:17 info: DB Created successfully!
+2022-04-16 19:49:17 info: Successfully deleted
+2022-04-16 19:52:42 info: DB Created successfully!
+2022-04-16 19:52:43 info: Successfully deleted
+2022-04-16 19:55:41 info: DB Created successfully!
+2022-04-16 19:55:41 info: Successfully deleted
+2022-04-16 19:57:04 info: DB Created successfully!
+2022-04-16 19:57:04 info: Server is listening at 3000
+2022-04-16 20:12:17 info: Database is Closing...
+2022-04-16 20:12:22 info: DB Created successfully!
+2022-04-16 20:14:58 info: DB Created successfully!
+2022-04-16 20:15:33 info: DB Created successfully!
+2022-04-16 20:15:38 info: Successfully deleted
+2022-04-16 20:19:51 info: DB Created successfully!
+2022-04-16 20:20:14 info: DB Created successfully!
+2022-04-16 20:20:20 info: Successfully deleted
+2022-04-16 20:23:19 info: DB Created successfully!
+2022-04-16 20:23:38 info: DB Created successfully!
+2022-04-16 20:23:43 info: Successfully deleted
+2022-04-16 20:25:35 info: DB Created successfully!
+2022-04-16 20:25:50 info: DB Created successfully!
+2022-04-16 20:27:00 info: DB Created successfully!
+2022-04-16 20:27:13 info: DB Created successfully!
+2022-04-16 20:30:16 info: DB Created successfully!
+2022-04-16 20:30:30 info: DB Created successfully!
+2022-04-16 20:31:13 info: DB Created successfully!
+2022-04-16 20:31:26 info: DB Created successfully!
+2022-04-16 20:31:33 info: DB Created successfully!
+2022-04-16 20:32:44 info: DB Created successfully!
+2022-04-16 20:32:44 info: Server is listening at 3000
+2022-04-16 20:33:22 info: Database is Closing...
+2022-04-16 20:33:26 info: DB Created successfully!
+2022-04-16 20:33:26 info: Server is listening at 3000
+2022-04-16 20:36:40 info: Database is Closing...
+2022-04-16 20:36:43 info: DB Created successfully!
+2022-04-16 20:36:43 info: Server is listening at 3000
+2022-04-17 10:15:23 info: Database is Closing...
+2022-04-17 10:15:28 info: DB Created successfully!
+2022-04-17 10:15:28 info: Server is listening at 3000
+2022-04-17 10:16:22 info: Database is Closing...
+2022-04-17 10:16:26 info: DB Created successfully!
+2022-04-17 10:16:26 info: Server is listening at 3000
+2022-04-17 10:16:28 info: Database is Closing...
+2022-04-17 10:16:32 info: DB Created successfully!
+2022-04-17 10:16:32 info: Server is listening at 3000
+2022-04-17 10:16:37 info: Database is Closing...
+2022-04-17 10:16:40 info: DB Created successfully!
+2022-04-17 10:16:40 info: Server is listening at 3000
+2022-04-17 10:17:27 info: Database is Closing...
+2022-04-17 10:17:31 info: DB Created successfully!
+2022-04-17 10:17:31 info: Server is listening at 3000
+2022-04-17 10:19:17 info: Database is Closing...
+2022-04-17 10:19:21 info: DB Created successfully!
+2022-04-17 10:19:21 info: Server is listening at 3000
+2022-04-17 10:19:23 info: Database is Closing...
+2022-04-17 10:19:27 info: DB Created successfully!
+2022-04-17 10:19:27 info: Server is listening at 3000
+2022-04-17 10:19:37 info: Database is Closing...
+2022-04-17 10:19:40 info: DB Created successfully!
+2022-04-17 10:19:40 info: Server is listening at 3000
+2022-04-17 10:19:45 info: Database is Closing...
+2022-04-17 10:19:48 info: DB Created successfully!
+2022-04-17 10:19:48 info: Server is listening at 3000
+2022-04-17 10:20:05 info: DB Created successfully!
+2022-04-17 10:20:05 info: DB Created successfully!
+2022-04-17 10:20:10 info: Successfully deleted
+2022-04-17 10:21:41 info: Database is Closing...
+2022-04-17 10:21:46 info: DB Created successfully!
+2022-04-17 10:21:46 info: Server is listening at 3000
+2022-04-17 10:21:55 info: DB Created successfully!
+2022-04-17 10:21:55 info: DB Created successfully!
+2022-04-17 10:23:18 info: Database is Closing...
+2022-04-17 10:23:23 info: DB Created successfully!
+2022-04-17 10:23:23 info: Server is listening at 3000
+2022-04-17 10:23:31 info: DB Created successfully!
+2022-04-17 10:23:31 info: DB Created successfully!
+2022-04-17 10:23:44 info: Database is Closing...
+2022-04-17 10:23:48 info: DB Created successfully!
+2022-04-17 10:24:00 info: DB Created successfully!
+2022-04-17 10:24:00 info: DB Created successfully!
+2022-04-17 10:45:05 info: DB Created successfully!
+2022-04-17 10:45:30 info: DB Created successfully!
+2022-04-17 10:50:07 info: DB Created successfully!
+2022-04-17 10:50:19 info: DB Created successfully!
+2022-04-17 10:50:19 info: DB Created successfully!
+2022-04-17 10:53:44 info: DB Created successfully!
+2022-04-17 10:53:52 info: DB Created successfully!
+2022-04-17 10:54:06 info: DB Created successfully!
+2022-04-17 10:54:06 info: DB Created successfully!
+2022-04-17 10:55:23 info: DB Created successfully!
+2022-04-17 10:58:22 info: DB Created successfully!
+2022-04-17 10:58:40 info: DB Created successfully!
+2022-04-17 10:58:52 info: DB Created successfully!
+2022-04-17 10:58:52 info: DB Created successfully!
+2022-04-17 10:59:29 info: DB Created successfully!
+2022-04-17 10:59:49 info: DB Created successfully!
+2022-04-17 11:00:00 info: DB Created successfully!
+2022-04-17 11:00:31 info: DB Created successfully!
+2022-04-17 11:00:52 info: DB Created successfully!
+2022-04-17 11:01:25 info: DB Created successfully!
+2022-04-17 11:01:45 info: DB Created successfully!
+2022-04-17 11:02:03 info: DB Created successfully!
+2022-04-17 11:02:17 info: DB Created successfully!
+2022-04-17 11:02:35 info: DB Created successfully!
+2022-04-17 11:02:43 info: DB Created successfully!
+2022-04-17 11:03:06 info: DB Created successfully!
+2022-04-17 11:03:06 info: Server is listening at 3000
+2022-04-17 11:07:04 info: Database is Closing...
+2022-04-17 11:07:09 info: DB Created successfully!
+2022-04-17 11:29:05 info: DB Created successfully!
+2022-04-17 11:29:05 info: DB Created successfully!
+2022-04-17 11:31:59 info: DB Created successfully!
+2022-04-17 11:32:10 info: DB Created successfully!
+2022-04-17 11:32:10 info: DB Created successfully!
+2022-04-17 11:32:10 info: DB Created successfully!
+2022-04-17 11:32:53 info: DB Created successfully!
+2022-04-17 11:32:58 info: DB Created successfully!
+2022-04-17 11:32:58 info: DB Created successfully!
+2022-04-17 11:33:08 info: DB Created successfully!
+2022-04-17 11:33:11 info: DB Created successfully!
+2022-04-17 11:33:12 info: DB Created successfully!
+2022-04-17 11:33:19 info: DB Created successfully!
+2022-04-17 11:33:23 info: DB Created successfully!
+2022-04-17 11:33:23 info: DB Created successfully!
+2022-04-17 11:33:53 info: DB Created successfully!
+2022-04-17 11:33:53 info: DB Created successfully!
+2022-04-17 11:34:01 info: DB Created successfully!
+2022-04-17 11:34:01 info: DB Created successfully!
+2022-04-17 11:34:03 info: DB Created successfully!
+2022-04-17 11:34:14 info: DB Created successfully!
+2022-04-17 11:34:17 info: DB Created successfully!
+2022-04-17 11:34:17 info: DB Created successfully!
+2022-04-17 11:35:24 info: DB Created successfully!
+2022-04-17 11:35:27 info: DB Created successfully!
+2022-04-17 11:35:28 info: DB Created successfully!
+2022-04-17 11:36:07 info: DB Created successfully!
+2022-04-17 11:36:11 info: DB Created successfully!
+2022-04-17 11:36:11 info: DB Created successfully!
+2022-04-17 11:36:19 info: DB Created successfully!
+2022-04-17 11:36:23 info: DB Created successfully!
+2022-04-17 11:36:23 info: DB Created successfully!
+2022-04-17 11:37:13 info: DB Created successfully!
+2022-04-17 11:37:18 info: DB Created successfully!
+2022-04-17 11:37:18 info: DB Created successfully!
+2022-04-17 11:38:07 info: DB Created successfully!
+2022-04-17 11:38:46 info: DB Created successfully!
+2022-04-17 11:38:46 info: DB Created successfully!
+2022-04-17 11:39:09 info: DB Created successfully!
+2022-04-17 11:39:12 info: DB Created successfully!
+2022-04-17 11:39:12 info: DB Created successfully!
+2022-04-17 11:40:08 info: DB Created successfully!
+2022-04-17 11:40:08 info: DB Created successfully!
+2022-04-17 11:40:47 info: DB Created successfully!
+2022-04-17 11:40:51 info: DB Created successfully!
+2022-04-17 11:40:51 info: DB Created successfully!
+2022-04-17 11:41:48 info: DB Created successfully!
+2022-04-17 11:41:48 info: DB Created successfully!
+2022-04-17 11:43:17 info: DB Created successfully!
+2022-04-17 11:43:22 info: DB Created successfully!
+2022-04-17 11:43:22 info: DB Created successfully!
+2022-04-17 11:44:11 info: DB Created successfully!
+2022-04-17 11:44:11 info: DB Created successfully!
+2022-04-17 11:46:45 info: DB Created successfully!
+2022-04-17 11:46:50 info: DB Created successfully!
+2022-04-17 11:46:50 info: DB Created successfully!
+2022-04-17 11:47:50 info: DB Created successfully!
+2022-04-17 11:47:55 info: DB Created successfully!
+2022-04-17 11:47:55 info: DB Created successfully!
+2022-04-17 11:48:30 info: DB Created successfully!
+2022-04-17 11:48:34 info: DB Created successfully!
+2022-04-17 11:48:34 info: DB Created successfully!
+2022-04-17 11:50:34 info: DB Created successfully!
+2022-04-17 11:50:34 info: Server is listening at 3000
+2022-04-17 11:50:41 info: DB Created successfully!
+2022-04-17 11:50:41 info: DB Created successfully!
+2022-04-17 11:52:03 info: Database is Closing...
+2022-04-17 11:52:07 info: DB Created successfully!
+2022-04-17 11:52:07 info: Server is listening at 3000
+2022-04-17 11:52:12 info: DB Created successfully!
+2022-04-17 11:52:12 info: DB Created successfully!
+2022-04-17 11:52:42 info: Database is Closing...
+2022-04-17 11:52:45 info: DB Created successfully!
+2022-04-17 11:52:45 info: Server is listening at 3000
+2022-04-17 11:53:09 info: Database is Closing...
+2022-04-17 11:53:13 info: DB Created successfully!
+2022-04-17 11:53:13 info: Server is listening at 3000
+2022-04-17 11:53:13 info: Successfully deleted
+2022-04-17 11:53:24 info: Successfully deleted
+2022-04-17 11:53:58 info: Successfully deleted
+2022-04-17 11:54:29 info: Database is Closing...
+2022-04-17 11:54:39 info: DB Created successfully!
+2022-04-17 11:54:39 info: Server is listening at 3000
+2022-04-17 11:55:24 info: Successfully deleted
+2022-04-17 11:56:50 info: Database is Closing...
+2022-04-17 11:56:53 info: DB Created successfully!
+2022-04-17 11:56:53 info: Server is listening at 3000
+2022-04-17 11:57:00 info: Database is Closing...
+2022-04-17 11:57:03 info: DB Created successfully!
+2022-04-17 11:57:46 info: DB Created successfully!
+2022-04-17 11:57:46 info: DB Created successfully!
+2022-04-17 11:58:22 info: DB Created successfully!
+2022-04-17 11:58:22 info: DB Created successfully!
+2022-04-17 11:58:22 info: Successfully deleted
+2022-04-17 11:58:53 info: DB Created successfully!
+2022-04-17 11:58:53 info: DB Created successfully!
+2022-04-17 11:59:16 info: DB Created successfully!
+2022-04-17 11:59:16 info: DB Created successfully!
+2022-04-17 11:59:16 info: Successfully deleted
+2022-04-17 11:59:48 info: DB Created successfully!
+2022-04-17 11:59:48 info: DB Created successfully!
+2022-04-17 11:59:48 info: Successfully deleted
+2022-04-17 14:17:30 info: DB Created successfully!
+2022-04-17 14:17:30 info: DB Created successfully!
+2022-04-17 14:17:30 info: Successfully deleted
+2022-04-17 14:17:38 info: DB Created successfully!
+2022-04-17 14:17:38 info: DB Created successfully!
+2022-04-17 14:17:39 info: Successfully deleted
+2022-04-17 14:17:47 info: DB Created successfully!
+2022-04-17 14:17:47 info: Successfully deleted
+2022-04-17 14:17:47 info: DB Created successfully!
+2022-04-17 14:18:00 info: DB Created successfully!
+2022-04-17 14:18:00 info: Successfully deleted
+2022-04-17 14:18:00 info: DB Created successfully!
+2022-04-17 14:18:27 info: DB Created successfully!
+2022-04-17 14:18:27 info: Successfully deleted
+2022-04-17 14:18:27 info: DB Created successfully!
+2022-04-17 14:18:43 info: DB Created successfully!
+2022-04-17 14:18:43 info: Successfully deleted
+2022-04-17 14:18:43 info: DB Created successfully!
+2022-04-17 14:19:14 info: DB Created successfully!
+2022-04-17 14:19:14 info: DB Created successfully!
+2022-04-17 14:19:14 info: Successfully deleted
+2022-04-17 14:21:07 info: DB Created successfully!
+2022-04-17 14:21:07 info: DB Created successfully!
+2022-04-17 14:21:07 info: Successfully deleted
+2022-04-17 14:21:51 info: DB Created successfully!
+2022-04-17 14:21:51 info: DB Created successfully!
+2022-04-17 14:21:51 info: Successfully deleted
+2022-04-17 14:24:23 info: DB Created successfully!
+2022-04-17 14:24:23 info: DB Created successfully!
+2022-04-17 14:24:23 info: Successfully deleted
+2022-04-17 14:26:50 info: DB Created successfully!
+2022-04-17 14:26:50 info: DB Created successfully!
+2022-04-17 14:26:50 info: Successfully deleted
+2022-04-17 14:28:47 info: DB Created successfully!
+2022-04-17 14:28:47 info: DB Created successfully!
+2022-04-17 14:28:48 info: Successfully deleted
+2022-04-17 14:30:08 info: DB Created successfully!
+2022-04-17 14:30:09 info: DB Created successfully!
+2022-04-17 14:30:09 info: Successfully deleted
+2022-04-17 14:32:04 info: DB Created successfully!
+2022-04-17 14:32:04 info: DB Created successfully!
+2022-04-17 14:32:04 info: Successfully deleted
+2022-04-17 14:32:25 info: DB Created successfully!
+2022-04-17 14:43:26 info: DB Created successfully!
+2022-04-17 14:43:33 info: DB Created successfully!
+2022-04-17 14:44:41 info: DB Created successfully!
+2022-04-17 14:44:41 info: DB Created successfully!
+2022-04-17 14:44:41 info: Successfully deleted
+2022-04-17 14:44:46 info: DB Created successfully!
+2022-04-17 14:44:46 info: DB Created successfully!
+2022-04-17 14:44:46 info: Successfully deleted
+2022-04-17 14:58:23 info: DB Created successfully!
+2022-04-17 14:58:26 info: DB Created successfully!
+2022-04-17 14:58:26 info: DB Created successfully!
+2022-04-17 14:58:26 info: Successfully deleted
+2022-04-17 15:43:17 info: DB Created successfully!
+2022-04-17 15:43:17 info: DB Created successfully!
+2022-04-17 15:43:17 info: Successfully deleted
+2022-04-17 15:43:24 info: DB Created successfully!
+2022-04-17 15:43:24 info: DB Created successfully!
+2022-04-17 15:43:24 info: Successfully deleted
+2022-04-17 16:01:27 info: DB Created successfully!
+2022-04-17 16:01:27 info: Server is listening at 3000
+2022-04-17 16:02:04 info: Database is Closing...
+2022-04-17 16:02:07 info: DB Created successfully!
+2022-04-17 16:02:23 info: DB Created successfully!
+2022-04-17 16:02:23 info: Successfully deleted
+2022-04-17 16:02:23 info: DB Created successfully!
+2022-04-17 16:02:31 info: DB Created successfully!
+2022-04-17 16:02:31 info: DB Created successfully!
+2022-04-17 16:02:31 info: Successfully deleted
+2022-04-17 16:05:38 info: DB Created successfully!
+2022-04-17 16:05:41 info: DB Created successfully!
+2022-04-17 16:05:41 info: DB Created successfully!
+2022-04-17 16:05:42 info: Successfully deleted
+2022-04-17 16:06:16 info: DB Created successfully!
+2022-04-17 16:06:16 info: Successfully deleted
+2022-04-17 16:06:17 info: DB Created successfully!
+2022-04-17 16:06:47 info: DB Created successfully!
+2022-04-17 16:06:50 info: DB Created successfully!
+2022-04-17 16:06:50 info: DB Created successfully!
+2022-04-17 16:06:50 info: Successfully deleted
+2022-04-17 16:06:58 info: DB Created successfully!
+2022-04-17 16:07:02 info: DB Created successfully!
+2022-04-17 16:07:02 info: DB Created successfully!
+2022-04-17 16:07:02 info: Successfully deleted
+2022-04-17 16:07:35 info: DB Created successfully!
+2022-04-17 16:07:35 info: Server is listening at 3000
+2022-04-17 16:07:39 info: DB Created successfully!
+2022-04-17 16:07:39 info: DB Created successfully!
+2022-04-17 16:07:39 info: Successfully deleted
+2022-04-17 16:13:33 info: Database is Closing...
+2022-04-17 16:13:39 info: DB Created successfully!
+2022-04-17 16:13:40 info: DB Created successfully!
+2022-04-17 16:13:40 info: DB Created successfully!
+2022-04-17 16:13:40 info: Successfully deleted
+2022-04-17 16:13:58 info: DB Created successfully!
+2022-04-17 16:13:58 info: Server is listening at 3000
+2022-04-17 16:14:02 info: DB Created successfully!
+2022-04-17 16:14:02 info: DB Created successfully!
+2022-04-17 16:14:02 info: Successfully deleted
+2022-04-17 16:14:21 info: Database is Closing...
+2022-04-17 16:14:48 info: DB Created successfully!
+2022-04-17 16:14:48 info: Server is listening at 3000
+2022-04-17 16:16:08 info: Database is Closing...
+2022-04-17 16:16:11 info: DB Created successfully!
+2022-04-17 16:16:11 info: Server is listening at 3000
+2022-04-17 16:16:44 info: Database is Closing...
+2022-04-17 16:17:09 info: DB Created successfully!
+2022-04-17 16:17:09 info: Server is listening at 3000
+2022-04-17 16:18:53 info: Database is Closing...
+2022-04-17 16:18:57 info: DB Created successfully!
+2022-04-17 16:18:57 info: Server is listening at 3000
+2022-04-17 16:19:44 info: Database is Closing...
+2022-04-17 16:19:47 info: DB Created successfully!
+2022-04-17 16:19:47 info: Server is listening at 3000
+2022-04-17 16:20:06 info: Database is Closing...
+2022-04-17 16:20:09 info: DB Created successfully!
+2022-04-17 16:20:27 info: DB Created successfully!
+2022-04-17 16:20:27 info: Successfully deleted
+2022-04-17 16:20:27 info: DB Created successfully!
+2022-04-17 16:23:33 info: DB Created successfully!
+2022-04-17 16:23:36 info: DB Created successfully!
+2022-04-17 16:23:36 info: DB Created successfully!
+2022-04-17 16:23:36 info: Successfully deleted
+2022-04-17 16:24:12 info: DB Created successfully!
+2022-04-17 16:24:15 info: DB Created successfully!
+2022-04-17 16:24:16 info: DB Created successfully!
+2022-04-17 16:24:16 info: Successfully deleted
+2022-04-17 16:27:33 info: DB Created successfully!
+2022-04-17 16:27:38 info: DB Created successfully!
+2022-04-17 16:27:38 info: DB Created successfully!
+2022-04-17 16:27:38 info: Successfully deleted
+2022-04-17 16:28:53 info: DB Created successfully!
+2022-04-17 16:28:57 info: DB Created successfully!
+2022-04-17 16:28:57 info: DB Created successfully!
+2022-04-17 16:28:57 info: Successfully deleted
+2022-04-17 16:36:40 info: DB Created successfully!
+2022-04-17 16:36:43 info: DB Created successfully!
+2022-04-17 16:36:49 info: DB Created successfully!
+2022-04-17 16:36:53 info: DB Created successfully!
+2022-04-17 16:36:53 info: DB Created successfully!
+2022-04-17 16:36:53 info: Successfully deleted
+2022-04-17 16:36:53 info: Successfully deleted
+2022-04-17 16:37:47 info: DB Created successfully!
+2022-04-17 16:37:51 info: DB Created successfully!
+2022-04-17 16:37:51 info: DB Created successfully!
+2022-04-17 16:37:51 info: Successfully deleted
+2022-04-17 16:38:08 info: DB Created successfully!
+2022-04-17 16:38:12 info: DB Created successfully!
+2022-04-17 16:38:12 info: Successfully deleted
+2022-04-17 16:38:12 info: DB Created successfully!
+2022-04-17 16:38:50 info: DB Created successfully!
+2022-04-17 16:38:54 info: DB Created successfully!
+2022-04-17 16:38:54 info: DB Created successfully!
+2022-04-17 16:38:54 info: Successfully deleted
+2022-04-17 16:40:39 info: DB Created successfully!
+2022-04-17 16:40:42 info: DB Created successfully!
+2022-04-17 16:40:42 info: DB Created successfully!
+2022-04-17 16:40:42 info: Successfully deleted
+2022-04-17 16:46:10 info: DB Created successfully!
+2022-04-17 16:46:14 info: DB Created successfully!
+2022-04-17 16:46:14 info: DB Created successfully!
+2022-04-17 16:46:14 info: Successfully deleted
+2022-04-17 16:46:21 info: DB Created successfully!
+2022-04-17 16:46:21 info: DB Created successfully!
+2022-04-17 16:46:21 info: Successfully deleted
+2022-04-17 16:46:53 info: DB Created successfully!
+2022-04-17 16:46:53 info: DB Created successfully!
+2022-04-17 16:46:53 info: Successfully deleted
+2022-04-17 16:52:50 info: DB Created successfully!
+2022-04-17 16:52:50 info: DB Created successfully!
+2022-04-17 16:52:50 info: Successfully deleted
+2022-04-17 16:53:41 info: DB Created successfully!
+2022-04-17 16:53:41 info: DB Created successfully!
+2022-04-17 16:53:41 info: Successfully deleted
+2022-04-17 16:56:36 info: DB Created successfully!
+2022-04-17 16:56:36 info: DB Created successfully!
+2022-04-17 16:56:36 info: Successfully deleted
+2022-04-17 16:58:25 info: DB Created successfully!
+2022-04-17 16:58:26 info: DB Created successfully!
+2022-04-17 16:58:26 info: Successfully deleted
+2022-04-17 17:00:10 info: DB Created successfully!
+2022-04-17 17:00:10 info: DB Created successfully!
+2022-04-17 17:00:10 info: Successfully deleted
+2022-04-17 17:00:37 info: DB Created successfully!
+2022-04-17 17:00:37 info: DB Created successfully!
+2022-04-17 17:00:37 info: Successfully deleted
+2022-04-17 17:01:15 info: DB Created successfully!
+2022-04-17 17:01:16 info: DB Created successfully!
+2022-04-17 17:01:16 info: Successfully deleted
+2022-04-17 17:02:14 info: DB Created successfully!
+2022-04-17 17:02:14 info: DB Created successfully!
+2022-04-17 17:02:14 info: Successfully deleted
+2022-04-17 17:03:11 info: DB Created successfully!
+2022-04-17 17:03:11 info: DB Created successfully!
+2022-04-17 17:03:11 info: Successfully deleted
+2022-04-17 17:03:33 info: DB Created successfully!
+2022-04-17 17:03:33 info: Successfully deleted
+2022-04-17 17:03:33 info: DB Created successfully!
+2022-04-17 17:04:35 info: DB Created successfully!
+2022-04-17 17:04:35 info: Successfully deleted
+2022-04-17 17:04:35 info: DB Created successfully!
+2022-04-17 17:05:10 info: DB Created successfully!
+2022-04-17 17:05:11 info: DB Created successfully!
+2022-04-17 17:05:11 info: Successfully deleted
+2022-04-17 17:05:44 info: DB Created successfully!
+2022-04-17 17:05:44 info: DB Created successfully!
+2022-04-17 17:05:44 info: Server is listening at 3000
+2022-04-17 17:05:44 info: Successfully deleted
+2022-04-17 17:05:53 info: DB Created successfully!
+2022-04-17 17:05:53 info: Server is listening at 3000
+2022-04-17 17:05:53 info: DB Created successfully!
+2022-04-17 17:05:53 info: Successfully deleted
+2022-04-17 17:07:05 info: DB Created successfully!
+2022-04-17 17:07:05 info: Server is listening at 3000
+2022-04-17 17:08:06 info: Database is Closing...
+2022-04-17 17:08:09 info: DB Created successfully!
+2022-04-17 17:08:09 info: Server is listening at 3000
+2022-04-17 17:08:17 info: Database is Closing...
+2022-04-17 17:08:20 info: DB Created successfully!
+2022-04-17 17:08:40 info: DB Created successfully!
+2022-04-17 17:08:40 info: DB Created successfully!
+2022-04-17 17:08:40 info: Successfully deleted
+2022-04-17 17:08:46 info: DB Created successfully!
+2022-04-17 17:08:46 info: Successfully deleted
+2022-04-17 17:08:46 info: DB Created successfully!
+2022-04-17 17:09:18 info: DB Created successfully!
+2022-04-17 17:09:22 info: DB Created successfully!
+2022-04-17 17:12:28 info: DB Created successfully!
+2022-04-17 17:12:32 info: DB Created successfully!
+2022-04-17 17:12:32 info: DB Created successfully!
+2022-04-17 17:12:32 info: Successfully deleted
+2022-04-17 17:13:38 info: DB Created successfully!
+2022-04-17 17:13:42 info: DB Created successfully!
+2022-04-17 17:13:42 info: DB Created successfully!
+2022-04-17 17:13:42 info: Successfully deleted
+2022-04-17 17:14:29 info: DB Created successfully!
+2022-04-17 17:14:33 info: DB Created successfully!
+2022-04-17 17:14:33 info: DB Created successfully!
+2022-04-17 17:14:33 info: Successfully deleted
+2022-04-17 17:18:37 info: DB Created successfully!
+2022-04-17 17:18:37 info: Server is listening at 3000
+2022-04-17 17:18:40 info: DB Created successfully!
+2022-04-17 17:18:40 info: DB Created successfully!
+2022-04-17 17:18:40 info: Successfully deleted
+2022-04-17 17:18:47 info: Database is Closing...
+2022-04-17 17:18:51 info: DB Created successfully!
+2022-04-17 17:18:54 info: DB Created successfully!
+2022-04-17 17:18:54 info: DB Created successfully!
+2022-04-17 17:18:54 info: Successfully deleted
+2022-04-17 17:19:25 info: DB Created successfully!
+2022-04-17 17:19:28 info: DB Created successfully!
+2022-04-17 17:19:28 info: DB Created successfully!
+2022-04-17 17:19:28 info: Successfully deleted
+2022-04-17 17:20:56 info: DB Created successfully!
+2022-04-17 17:21:00 info: DB Created successfully!
+2022-04-17 17:21:00 info: DB Created successfully!
+2022-04-17 17:21:00 info: Successfully deleted
+2022-04-17 17:21:31 info: DB Created successfully!
+2022-04-17 17:21:34 info: DB Created successfully!
+2022-04-17 17:21:34 info: DB Created successfully!
+2022-04-17 17:21:34 info: Successfully deleted
+2022-04-17 17:21:44 info: DB Created successfully!
+2022-04-17 17:21:48 info: DB Created successfully!
+2022-04-17 17:21:49 info: DB Created successfully!
+2022-04-17 17:21:49 info: Successfully deleted
+2022-04-17 17:22:14 info: DB Created successfully!
+2022-04-17 17:22:18 info: DB Created successfully!
+2022-04-17 17:22:18 info: DB Created successfully!
+2022-04-17 17:22:18 info: Successfully deleted
+2022-04-17 17:22:39 info: DB Created successfully!
+2022-04-17 17:23:08 info: DB Created successfully!
+2022-04-17 17:23:08 info: Successfully deleted
+2022-04-17 17:23:08 info: DB Created successfully!
+2022-04-17 17:23:27 info: DB Created successfully!
+2022-04-17 17:23:27 info: Server is listening at 3000
+2022-04-17 17:23:30 info: DB Created successfully!
+2022-04-17 17:23:30 info: DB Created successfully!
+2022-04-17 17:23:30 info: Successfully deleted
+2022-04-17 17:23:59 info: Database is Closing...
+2022-04-17 17:24:03 info: DB Created successfully!
+2022-04-17 17:24:03 info: Server is listening at 3000
+2022-04-17 17:24:06 info: DB Created successfully!
+2022-04-17 17:24:06 info: DB Created successfully!
+2022-04-17 17:24:06 info: Successfully deleted
+2022-04-17 17:24:15 info: Database is Closing...
+2022-04-17 17:24:18 info: DB Created successfully!
+2022-04-17 17:24:21 info: DB Created successfully!
+2022-04-17 17:24:21 info: Successfully deleted
+2022-04-17 17:24:21 info: DB Created successfully!
+2022-04-17 17:27:19 info: DB Created successfully!
+2022-04-17 17:27:22 info: DB Created successfully!
+2022-04-17 17:27:22 info: DB Created successfully!
+2022-04-17 17:27:22 info: Successfully deleted
+2022-04-17 17:33:01 info: DB Created successfully!
+2022-04-17 17:33:04 info: DB Created successfully!
+2022-04-17 17:33:04 info: DB Created successfully!
+2022-04-17 17:33:04 info: Successfully deleted
+2022-04-17 17:37:06 info: DB Created successfully!
+2022-04-17 17:37:10 info: DB Created successfully!
+2022-04-17 17:37:10 info: Successfully deleted
+2022-04-17 17:37:10 info: DB Created successfully!
+2022-04-17 17:37:24 info: DB Created successfully!
+2022-04-17 17:37:27 info: DB Created successfully!
+2022-04-17 17:37:27 info: DB Created successfully!
+2022-04-17 17:37:27 info: Successfully deleted
+2022-04-17 17:38:56 info: DB Created successfully!
+2022-04-17 17:38:56 info: Server is listening at 3000
+2022-04-17 17:39:00 info: DB Created successfully!
+2022-04-17 17:39:00 info: DB Created successfully!
+2022-04-17 17:39:00 info: Successfully deleted
+2022-04-17 17:40:21 info: Database is Closing...
+2022-04-17 17:40:25 info: DB Created successfully!
+2022-04-17 17:40:25 info: Server is listening at 3000
+2022-04-17 17:40:29 info: DB Created successfully!
+2022-04-17 17:40:29 info: DB Created successfully!
+2022-04-17 17:40:29 info: Successfully deleted
+2022-04-17 17:41:23 info: Database is Closing...
+2022-04-17 17:41:26 info: DB Created successfully!
+2022-04-17 17:41:26 info: Server is listening at 3000
+2022-04-17 17:41:29 info: DB Created successfully!
+2022-04-17 17:41:29 info: DB Created successfully!
+2022-04-17 17:41:29 info: Successfully deleted
+2022-04-17 17:44:27 info: Database is Closing...
+2022-04-17 17:44:31 info: DB Created successfully!
+2022-04-17 17:44:31 info: Server is listening at 3000
+2022-04-17 17:44:32 info: Database is Closing...
+2022-04-17 17:44:35 info: DB Created successfully!
+2022-04-17 17:44:35 info: Server is listening at 3000
+2022-04-17 17:44:35 info: DB Created successfully!
+2022-04-17 17:44:35 info: Successfully deleted
+2022-04-17 17:44:35 info: DB Created successfully!
+2022-04-17 17:45:19 info: DB Created successfully!
+2022-04-17 17:45:24 info: DB Created successfully!
+2022-04-17 17:45:24 info: DB Created successfully!
+2022-04-17 17:45:24 info: Successfully deleted
+2022-04-17 17:45:26 info: DB Created successfully!
+2022-04-17 18:25:58 info: DB Created successfully!
+2022-04-17 18:26:01 info: DB Created successfully!
+2022-04-17 18:26:01 info: DB Created successfully!
+2022-04-17 18:26:02 info: DB Created successfully!
+2022-04-17 18:26:06 info: DB Created successfully!
+2022-04-17 18:26:06 info: DB Created successfully!
+2022-04-17 18:26:23 info: DB Created successfully!
+2022-04-17 18:26:23 info: DB Created successfully!
+2022-04-17 18:26:30 info: DB Created successfully!
+2022-04-17 18:26:32 info: DB Created successfully!
+2022-04-17 18:26:32 info: DB Created successfully!
+2022-04-17 18:27:02 info: DB Created successfully!
+2022-04-17 18:27:05 info: DB Created successfully!
+2022-04-17 18:27:05 info: DB Created successfully!
+2022-04-17 18:27:38 info: DB Created successfully!
+2022-04-17 18:27:41 info: DB Created successfully!
+2022-04-17 18:27:41 info: DB Created successfully!
+2022-04-17 18:27:41 info: DB Created successfully!
+2022-04-17 18:42:39 info: DB Created successfully!
+2022-04-17 18:42:43 info: DB Created successfully!
+2022-04-17 18:42:43 info: DB Created successfully!
+2022-04-17 18:42:43 info: Successfully deleted
+2022-04-17 18:43:28 info: DB Created successfully!
+2022-04-17 18:43:28 info: Successfully deleted
+2022-04-17 18:43:28 info: DB Created successfully!
+2022-04-17 18:43:35 info: DB Created successfully!
+2022-04-17 18:43:35 info: DB Created successfully!
+2022-04-17 18:43:35 info: Successfully deleted
+2022-04-17 18:50:06 info: DB Created successfully!
+2022-04-17 18:50:09 info: DB Created successfully!
+2022-04-17 18:50:09 info: DB Created successfully!
+2022-04-17 18:50:09 info: Successfully deleted
+2022-04-17 19:16:41 info: DB Created successfully!
+2022-04-17 19:16:44 info: DB Created successfully!
+2022-04-17 19:16:45 info: DB Created successfully!
+2022-04-17 19:16:45 info: Successfully deleted
+2022-04-17 19:17:24 info: DB Created successfully!
+2022-04-17 19:17:56 info: DB Created successfully!
+2022-04-17 19:17:56 info: Server is listening at 3000
+2022-04-17 19:18:00 info: DB Created successfully!
+2022-04-17 19:18:00 info: DB Created successfully!
+2022-04-17 19:18:00 info: Successfully deleted
+2022-04-17 19:18:26 info: Database is Closing...
+2022-04-17 19:18:30 info: DB Created successfully!
+2022-04-17 19:18:33 info: DB Created successfully!
+2022-04-17 19:18:33 info: Successfully deleted
+2022-04-17 19:18:33 info: DB Created successfully!
+2022-04-17 19:18:56 info: DB Created successfully!
+2022-04-17 19:19:00 info: DB Created successfully!
+2022-04-17 19:19:00 info: DB Created successfully!
+2022-04-17 19:19:00 info: Successfully deleted
+2022-04-17 19:20:34 info: DB Created successfully!
+2022-04-17 19:20:37 info: DB Created successfully!
+2022-04-17 19:20:37 info: DB Created successfully!
+2022-04-17 19:20:37 info: Successfully deleted
+2022-04-17 19:20:38 info: Successfully deleted
+2022-04-17 19:21:02 info: DB Created successfully!
+2022-04-17 19:21:06 info: DB Created successfully!
+2022-04-17 19:21:06 info: Successfully deleted
+2022-04-17 19:21:07 info: DB Created successfully!
+2022-04-17 19:23:24 info: DB Created successfully!
+2022-04-17 19:23:24 info: DB Created successfully!
+2022-04-17 19:23:24 info: Successfully deleted
+2022-04-17 19:24:05 info: DB Created successfully!
+2022-04-17 19:24:09 info: DB Created successfully!
+2022-04-17 19:24:09 info: Successfully deleted
+2022-04-17 19:24:14 info: DB Created successfully!
+2022-04-17 19:24:19 info: DB Created successfully!
+2022-04-17 19:24:19 info: Successfully deleted
+2022-04-17 19:24:19 info: DB Created successfully!
+2022-04-17 19:25:48 info: DB Created successfully!
+2022-04-17 19:25:53 info: DB Created successfully!
+2022-04-17 19:25:53 info: DB Created successfully!
+2022-04-17 19:25:53 info: Successfully deleted
+2022-04-17 19:26:09 info: DB Created successfully!
+2022-04-17 19:26:11 info: DB Created successfully!
+2022-04-17 19:26:11 info: Successfully deleted
+2022-04-17 19:26:19 info: DB Created successfully!
+2022-04-17 19:26:19 info: Successfully deleted
+2022-04-17 19:26:48 info: DB Created successfully!
+2022-04-17 19:26:53 info: DB Created successfully!
+2022-04-17 19:26:53 info: Successfully deleted
+2022-04-17 19:26:54 info: DB Created successfully!
+2022-04-17 19:29:04 info: DB Created successfully!
+2022-04-17 19:29:10 info: DB Created successfully!
+2022-04-17 19:29:10 info: Successfully deleted
+2022-04-17 19:29:10 info: DB Created successfully!
+2022-04-17 19:36:58 info: DB Created successfully!
+2022-04-17 19:37:00 info: DB Created successfully!
+2022-04-17 19:37:00 info: DB Created successfully!
+2022-04-17 19:37:00 info: Successfully deleted
+2022-04-17 19:37:50 info: DB Created successfully!
+2022-04-17 19:37:55 info: DB Created successfully!
+2022-04-17 19:37:55 info: DB Created successfully!
+2022-04-17 19:37:55 info: Successfully deleted
+2022-04-17 19:39:40 info: DB Created successfully!
+2022-04-17 19:39:45 info: DB Created successfully!
+2022-04-17 19:39:45 info: DB Created successfully!
+2022-04-17 19:39:45 info: Successfully deleted
+2022-04-17 19:39:45 info: Successfully deleted
+2022-04-17 19:40:12 info: DB Created successfully!
+2022-04-17 19:40:16 info: DB Created successfully!
+2022-04-17 19:40:16 info: Successfully deleted
+2022-04-17 19:40:16 info: Successfully deleted
+2022-04-17 19:40:16 info: DB Created successfully!
+2022-04-17 19:41:08 info: DB Created successfully!
+2022-04-17 19:41:08 info: Server is listening at 3000
+2022-04-17 19:41:16 info: DB Created successfully!
+2022-04-17 19:41:16 info: DB Created successfully!
+2022-04-17 19:41:17 info: Successfully deleted
+2022-04-17 19:41:17 info: Successfully deleted
+2022-04-17 19:43:32 info: Database is Closing...
+2022-04-17 19:43:36 info: DB Created successfully!
+2022-04-17 19:43:36 info: Server is listening at 3000
+2022-04-17 19:43:40 info: DB Created successfully!
+2022-04-17 19:43:40 info: Successfully deleted
+2022-04-17 19:43:40 info: Successfully deleted
+2022-04-17 19:43:40 info: DB Created successfully!
+2022-04-17 19:45:26 info: Database is Closing...
+2022-04-17 19:45:30 info: DB Created successfully!
+2022-04-17 19:45:30 info: Server is listening at 3000
+2022-04-17 19:46:02 info: Database is Closing...
+2022-04-17 19:46:06 info: DB Created successfully!
+2022-04-17 19:46:06 info: Server is listening at 3000
+2022-04-17 19:46:34 info: Database is Closing...
+2022-04-17 19:46:41 info: DB Created successfully!
+2022-04-17 19:46:41 info: Server is listening at 3000
+2022-04-17 19:51:13 info: Database is Closing...
+2022-04-17 19:51:33 info: DB Created successfully!
+2022-04-17 19:51:33 info: Server is listening at 3000
+2022-04-17 19:52:28 info: Database is Closing...
+2022-04-17 19:52:32 info: DB Created successfully!
+2022-04-17 19:52:32 info: Server is listening at 3000
+2022-04-17 19:52:49 info: Database is Closing...
+2022-04-17 19:53:11 info: DB Created successfully!
+2022-04-17 19:53:11 info: Server is listening at 3000
+2022-04-17 19:53:37 info: new patient added in DB
+2022-04-17 19:53:39 error: Error: Error: self signed certificate in certificate chain
+2022-04-17 19:53:39 info: info
+2022-04-17 19:53:39 info: Directory created successfully!
+2022-04-17 19:53:39 info: The file has been saved!
+2022-04-17 19:53:59 info: Database is Closing...
+2022-04-17 19:54:03 info: DB Created successfully!
+2022-04-17 19:54:36 info: DB Created successfully!
+2022-04-17 19:54:36 info: DB Created successfully!
+2022-04-17 19:54:36 info: Successfully deleted
+2022-04-17 19:54:36 info: Successfully deleted
+2022-04-17 19:54:37 info: new patient added in DB
+2022-04-17 19:54:44 info: DB Created successfully!
+2022-04-17 19:54:44 info: Successfully deleted
+2022-04-17 19:54:44 info: DB Created successfully!
+2022-04-17 19:54:44 info: Successfully deleted
+2022-04-17 19:59:52 info: DB Created successfully!
+2022-04-17 19:59:56 info: DB Created successfully!
+2022-04-17 19:59:56 info: Successfully deleted
+2022-04-17 19:59:56 info: Successfully deleted
+2022-04-17 19:59:56 info: DB Created successfully!
+2022-04-17 19:59:56 info: Successfully deleted
+2022-04-17 19:59:57 info: new patient added in DB
+2022-04-17 20:00:23 info: DB Created successfully!
+2022-04-17 20:00:25 info: DB Created successfully!
+2022-04-17 20:00:25 info: Successfully deleted
+2022-04-17 20:00:25 info: new patient added in DB
+2022-04-17 20:00:25 info: DB Created successfully!
+2022-04-17 20:00:25 info: Successfully deleted
+2022-04-17 20:00:25 info: Successfully deleted
+2022-04-17 20:03:46 info: DB Created successfully!
+2022-04-17 20:03:51 info: DB Created successfully!
+2022-04-17 20:03:51 info: Successfully deleted
+2022-04-17 20:03:51 info: Successfully deleted
+2022-04-17 20:03:51 info: DB Created successfully!
+2022-04-17 20:03:51 info: Successfully deleted
+2022-04-17 20:03:52 info: new patient added in DB
+2022-04-17 20:04:03 info: DB Created successfully!
+2022-04-17 20:04:08 info: DB Created successfully!
+2022-04-17 20:04:08 info: Successfully deleted
+2022-04-17 20:04:08 info: new patient added in DB
+2022-04-17 20:04:09 info: DB Created successfully!
+2022-04-17 20:04:09 info: Successfully deleted
+2022-04-17 20:04:09 info: Successfully deleted
+2022-04-17 20:06:02 info: DB Created successfully!
+2022-04-17 20:06:07 info: DB Created successfully!
+2022-04-17 20:06:07 info: DB Created successfully!
+2022-04-17 20:06:07 info: Successfully deleted
+2022-04-17 20:06:07 info: Successfully deleted
+2022-04-17 20:06:07 info: new patient added in DB
+2022-04-17 20:06:07 info: Successfully deleted
+2022-04-17 20:06:11 info: DB Created successfully!
+2022-04-17 20:06:49 info: DB Created successfully!
+2022-04-17 20:06:54 info: DB Created successfully!
+2022-04-17 20:06:54 info: Successfully deleted
+2022-04-17 20:06:54 info: Successfully deleted
+2022-04-17 20:07:00 info: DB Created successfully!
+2022-04-17 20:07:05 info: DB Created successfully!
+2022-04-17 20:07:05 info: Successfully deleted
+2022-04-17 20:07:05 info: Successfully deleted
+2022-04-17 20:07:05 info: DB Created successfully!
+2022-04-17 20:07:05 info: Successfully deleted
+2022-04-17 20:07:05 info: new patient added in DB
+2022-04-17 20:07:32 info: DB Created successfully!
+2022-04-17 20:07:38 info: DB Created successfully!
+2022-04-17 20:07:38 info: Successfully deleted
+2022-04-17 20:07:38 info: DB Created successfully!
+2022-04-17 20:07:38 info: Successfully deleted
+2022-04-17 20:07:38 info: Successfully deleted
+2022-04-17 20:07:38 info: new patient added in DB
+2022-04-17 20:07:52 info: DB Created successfully!
+2022-04-17 20:07:57 info: DB Created successfully!
+2022-04-17 20:07:57 info: Successfully deleted
+2022-04-17 20:07:57 info: Successfully deleted
+2022-04-17 20:07:57 info: DB Created successfully!
+2022-04-17 20:07:57 info: Successfully deleted
+2022-04-17 20:07:57 info: new patient added in DB
+2022-04-17 20:08:12 info: DB Created successfully!
+2022-04-17 20:08:18 info: DB Created successfully!
+2022-04-17 20:08:18 info: Successfully deleted
+2022-04-17 20:08:18 info: Successfully deleted
+2022-04-17 20:08:18 info: DB Created successfully!
+2022-04-17 20:08:29 info: DB Created successfully!
+2022-04-17 20:08:34 info: DB Created successfully!
+2022-04-17 20:08:34 info: Successfully deleted
+2022-04-17 20:08:34 info: DB Created successfully!
+2022-04-17 20:08:34 info: new patient added in DB
+2022-04-17 20:08:34 info: Successfully deleted
+2022-04-17 20:08:34 info: Successfully deleted
+2022-04-17 20:10:08 info: DB Created successfully!
+2022-04-17 20:10:12 info: DB Created successfully!
+2022-04-17 20:10:12 info: Successfully deleted
+2022-04-17 20:10:12 info: Successfully deleted
+2022-04-17 20:10:12 info: DB Created successfully!
+2022-04-17 20:10:12 info: Successfully deleted
+2022-04-17 20:10:12 info: new patient added in DB
+2022-04-17 20:10:14 error: Error: Error: self signed certificate in certificate chain
+2022-04-17 20:10:14 info: info
+2022-04-17 20:10:14 info: Directory created successfully!
+2022-04-17 20:10:14 info: The file has been saved!
+2022-04-17 20:12:28 info: DB Created successfully!
+2022-04-17 20:12:32 info: DB Created successfully!
+2022-04-17 20:12:32 info: Successfully deleted
+2022-04-17 20:12:32 info: Successfully deleted
+2022-04-17 20:12:32 info: DB Created successfully!
+2022-04-17 20:12:33 info: Successfully deleted
+2022-04-17 20:12:33 info: new patient added in DB
+2022-04-17 20:12:34 error: Error: Error: self signed certificate in certificate chain
+2022-04-17 20:12:34 info: info
+2022-04-17 20:12:34 info: Directory created successfully!
+2022-04-17 20:12:34 info: The file has been saved!
+2022-04-17 20:13:02 info: DB Created successfully!
+2022-04-17 20:13:06 info: DB Created successfully!
+2022-04-17 20:13:06 info: Successfully deleted
+2022-04-17 20:13:07 info: Successfully deleted
+2022-04-17 20:13:07 info: DB Created successfully!
+2022-04-17 20:13:07 info: Successfully deleted
+2022-04-17 20:13:25 info: DB Created successfully!
+2022-04-17 20:13:41 info: DB Created successfully!
+2022-04-17 20:13:41 info: DB Created successfully!
+2022-04-17 20:13:41 info: Successfully deleted
+2022-04-17 20:13:41 info: Successfully deleted
+2022-04-17 20:13:41 info: Successfully deleted
+2022-04-17 20:13:41 info: new patient added in DB
+2022-04-17 20:13:42 error: Error: Error: self signed certificate in certificate chain
+2022-04-17 20:13:42 info: info
+2022-04-17 20:13:42 info: Directory created successfully!
+2022-04-17 20:13:42 info: The file has been saved!
+2022-04-17 20:14:08 info: DB Created successfully!
+2022-04-17 20:14:13 info: DB Created successfully!
+2022-04-17 20:14:13 info: Successfully deleted
+2022-04-17 20:14:13 info: Successfully deleted
+2022-04-17 20:14:13 info: DB Created successfully!
+2022-04-17 20:14:13 info: Successfully deleted
+2022-04-17 20:14:13 info: new patient added in DB
+2022-04-17 20:14:14 error: Error: Error: self signed certificate in certificate chain
+2022-04-17 20:14:14 info: info
+2022-04-17 20:14:14 info: Directory created successfully!
+2022-04-17 20:14:14 info: The file has been saved!
+2022-04-17 20:14:34 info: DB Created successfully!
+2022-04-17 20:14:39 info: DB Created successfully!
+2022-04-17 20:14:39 info: Successfully deleted
+2022-04-17 20:14:39 info: Successfully deleted
+2022-04-17 20:14:39 info: DB Created successfully!
+2022-04-17 20:14:39 info: Successfully deleted
+2022-04-17 20:14:39 info: new patient added in DB
+2022-04-17 20:14:40 error: Error: Error: self signed certificate in certificate chain
+2022-04-17 20:14:41 info: info
+2022-04-17 20:14:41 info: Directory created successfully!
+2022-04-17 20:14:41 info: The file has been saved!
+2022-04-17 20:14:41 info: Successfully deleted
+2022-04-17 20:18:23 info: DB Created successfully!
+2022-04-17 20:18:28 info: DB Created successfully!
+2022-04-17 20:18:28 info: Successfully deleted
+2022-04-17 20:18:28 info: Successfully deleted
+2022-04-17 20:18:28 info: DB Created successfully!
+2022-04-17 20:18:33 info: Successfully deleted
+2022-04-17 20:18:33 info: new patient added in DB
+2022-04-17 20:18:34 error: Error: Error: self signed certificate in certificate chain
+2022-04-17 20:18:34 info: info
+2022-04-17 20:18:34 info: Directory created successfully!
+2022-04-17 20:18:34 info: The file has been saved!
+2022-04-17 20:18:34 info: Successfully deleted
+2022-04-17 20:18:57 info: DB Created successfully!
+2022-04-17 20:58:02 info: DB Created successfully!
+2022-04-17 20:58:02 info: Successfully deleted
+2022-04-17 20:58:02 info: new patient added in DB
+2022-04-17 20:58:02 info: DB Created successfully!
+2022-04-17 20:58:02 info: Successfully deleted
+2022-04-17 20:58:02 info: Successfully deleted
+2022-04-17 20:58:03 info: Directory created successfully!
+2022-04-17 20:58:03 info: The file has been saved!
+2022-04-17 20:58:03 info: Successfully deleted
+2022-04-18 09:38:47 info: DB Created successfully!
+2022-04-18 09:38:47 info: Successfully deleted
+2022-04-18 09:38:47 info: DB Created successfully!
+2022-04-18 09:38:47 info: Successfully deleted
+2022-04-18 09:38:47 info: Successfully deleted
+2022-04-18 09:38:47 info: new patient added in DB
+2022-04-18 09:38:48 error: Error: Error: self signed certificate in certificate chain
+2022-04-18 09:38:49 info: info
+2022-04-18 09:38:49 info: Directory created successfully!
+2022-04-18 09:38:49 info: Successfully deleted
+2022-04-18 12:00:33 info: DB Created successfully!
+2022-04-18 13:04:17 info: DB Created successfully!
+2022-04-18 13:04:35 info: DB Created successfully!
+2022-04-18 13:05:47 info: DB Created successfully!
+2022-04-18 13:28:35 info: DB Created successfully!
+2022-04-18 13:28:35 info: Server is listening at 3000
+2022-04-18 13:28:59 info: Database is Closing...
+2022-04-18 13:29:03 info: DB Created successfully!
+2022-04-18 13:29:03 info: Server is listening at 3000
+2022-04-18 13:32:28 info: Database is Closing...
+2022-04-18 13:32:36 info: DB Created successfully!
+2022-04-18 13:32:36 info: Server is listening at 3000
+2022-04-18 13:33:04 info: Database is Closing...
+2022-04-18 13:33:08 info: DB Created successfully!
+2022-04-18 13:33:08 info: Server is listening at 3000
+2022-04-18 13:34:31 info: Database is Closing...
+2022-04-18 13:34:36 info: DB Created successfully!
+2022-04-18 13:34:36 info: Server is listening at 3000
+2022-04-18 13:34:41 info: Database is Closing...
+2022-04-18 13:34:45 info: DB Created successfully!
+2022-04-18 13:34:45 info: Server is listening at 3000
+2022-04-18 14:16:19 info: Database is Closing...
+2022-04-18 14:16:24 info: DB Created successfully!
+2022-04-18 14:16:24 info: Server is listening at 3000
+2022-04-18 14:16:59 info: Database is Closing...
+2022-04-18 14:17:03 info: DB Created successfully!
+2022-04-18 14:17:03 info: Server is listening at 3000
+2022-04-18 14:17:54 info: Database is Closing...
+2022-04-18 14:17:57 info: DB Created successfully!
+2022-04-18 14:17:57 info: Server is listening at 3000
+2022-04-18 14:18:04 info: Database is Closing...
+2022-04-18 14:18:12 info: DB Created successfully!
+2022-04-18 14:18:12 info: Server is listening at 3000
+2022-04-18 14:18:15 info: Database is Closing...
+2022-04-18 14:18:19 info: DB Created successfully!
+2022-04-18 14:18:19 info: Server is listening at 3000
+2022-04-18 14:24:54 info: Database is Closing...
+2022-04-18 14:24:58 info: DB Created successfully!
+2022-04-18 14:24:58 info: Server is listening at 3000
+2022-04-18 14:26:09 info: Database is Closing...
+2022-04-18 14:26:13 info: DB Created successfully!
+2022-04-18 14:26:13 info: Server is listening at 3000
+2022-04-18 14:26:57 info: Database is Closing...
+2022-04-18 14:27:01 info: DB Created successfully!
+2022-04-18 14:27:01 info: Server is listening at 3000
+2022-04-18 14:27:06 info: Database is Closing...
+2022-04-18 14:27:10 info: DB Created successfully!
+2022-04-18 14:27:10 info: Server is listening at 3000
+2022-04-18 14:29:25 info: Database is Closing...
+2022-04-18 14:29:30 info: DB Created successfully!
+2022-04-18 14:29:30 info: Server is listening at 3000
+2022-04-18 14:29:54 info: Database is Closing...
+2022-04-18 14:30:01 info: DB Created successfully!
+2022-04-18 14:30:01 info: Server is listening at 3000
+2022-04-18 14:32:10 info: Database is Closing...
+2022-04-18 14:32:15 info: DB Created successfully!
+2022-04-18 14:32:15 info: Server is listening at 3000
+2022-04-18 14:33:49 info: Database is Closing...
+2022-04-18 14:33:52 info: DB Created successfully!
+2022-04-18 14:33:52 info: Server is listening at 3000
+2022-04-18 14:33:57 info: Database is Closing...
+2022-04-18 14:34:02 info: DB Created successfully!
+2022-04-18 14:34:02 info: Server is listening at 3000
+2022-04-18 14:34:52 info: Database is Closing...
+2022-04-18 14:34:56 info: DB Created successfully!
+2022-04-18 14:34:56 info: Server is listening at 3000
+2022-04-18 14:35:13 info: Database is Closing...
+2022-04-18 14:35:17 info: DB Created successfully!
+2022-04-18 14:35:17 info: Server is listening at 3000
+2022-04-18 14:35:44 info: Database is Closing...
+2022-04-18 14:35:47 info: DB Created successfully!
+2022-04-18 14:35:47 info: Server is listening at 3000
+2022-04-18 14:38:55 info: Database is Closing...
+2022-04-18 14:38:59 info: DB Created successfully!
+2022-04-18 14:38:59 info: Server is listening at 3000
+2022-04-18 14:40:57 info: Database is Closing...
+2022-04-18 14:41:01 info: DB Created successfully!
+2022-04-18 14:41:01 info: Server is listening at 3000
+2022-04-18 14:41:39 info: Database is Closing...
+2022-04-18 14:43:15 info: DB Created successfully!
+2022-04-18 14:43:15 info: Server is listening at 3000
+2022-04-18 14:43:16 info: Database is Closing...
+2022-04-18 14:43:20 info: DB Created successfully!
+2022-04-18 14:43:20 info: Server is listening at 3000
+2022-04-18 17:56:10 info: Database is Closing...
+2022-04-18 17:56:15 info: DB Created successfully!
+2022-04-18 17:56:15 info: Server is listening at 3000
+2022-04-18 17:56:37 info: Database is Closing...
+2022-04-18 17:56:41 info: DB Created successfully!
+2022-04-18 17:56:41 info: Server is listening at 3000
+2022-04-18 17:57:10 info: Database is Closing...
+2022-04-18 17:57:14 info: DB Created successfully!
+2022-04-18 17:57:14 info: Server is listening at 3000
+2022-04-18 17:57:35 info: Database is Closing...
+2022-04-18 17:57:40 info: DB Created successfully!
+2022-04-18 17:57:40 info: Server is listening at 3000
+2022-04-18 17:57:59 info: Database is Closing...
+2022-04-18 17:58:03 info: DB Created successfully!
+2022-04-18 17:58:03 info: Server is listening at 3000
+2022-04-18 17:58:15 info: Database is Closing...
+2022-04-18 17:58:19 info: DB Created successfully!
+2022-04-18 17:58:19 info: Server is listening at 3000
+2022-04-18 17:58:24 info: Database is Closing...
+2022-04-18 17:58:28 info: DB Created successfully!
+2022-04-18 17:58:28 info: Server is listening at 3000
+2022-04-18 17:58:45 info: Database is Closing...
+2022-04-18 17:58:49 info: DB Created successfully!
+2022-04-18 17:58:49 info: Server is listening at 3000
+2022-04-18 18:15:45 info: Database is Closing...
+2022-04-18 18:15:49 info: DB Created successfully!
+2022-04-18 18:15:49 info: Server is listening at 3000
+2022-04-18 18:15:54 info: Database is Closing...
+2022-04-18 18:15:57 info: DB Created successfully!
+2022-04-18 18:15:57 info: Server is listening at 3000
+2022-04-18 18:16:32 info: Database is Closing...
+2022-04-18 18:16:36 info: DB Created successfully!
+2022-04-18 18:16:36 info: Server is listening at 3000
+2022-04-18 18:16:42 info: Database is Closing...
+2022-04-18 18:16:46 info: DB Created successfully!
+2022-04-18 18:16:46 info: Server is listening at 3000
+2022-04-18 18:17:21 info: Database is Closing...
+2022-04-18 18:17:25 info: DB Created successfully!
+2022-04-18 18:17:25 info: Server is listening at 3000
+2022-04-18 18:17:29 info: Database is Closing...
+2022-04-18 18:17:33 info: DB Created successfully!
+2022-04-18 18:17:33 info: Server is listening at 3000
+2022-04-18 18:19:27 info: Database is Closing...
+2022-04-18 18:19:30 info: DB Created successfully!
+2022-04-18 18:19:30 info: Server is listening at 3000
+2022-04-18 18:19:47 info: Database is Closing...
+2022-04-18 18:19:50 info: DB Created successfully!
+2022-04-18 18:19:50 info: Server is listening at 3000
+2022-04-18 18:21:34 info: Database is Closing...
+2022-04-18 18:21:38 info: DB Created successfully!
+2022-04-18 18:21:38 info: Server is listening at 3000
+2022-04-18 18:22:16 info: Database is Closing...
+2022-04-18 18:22:20 info: DB Created successfully!
+2022-04-18 18:22:20 info: Server is listening at 3000
+2022-04-18 18:22:29 info: Database is Closing...
+2022-04-18 18:24:36 info: DB Created successfully!
+2022-04-18 18:24:36 info: Server is listening at 3000
+2022-04-18 18:24:37 info: Database is Closing...
+2022-04-18 18:24:41 info: DB Created successfully!
+2022-04-18 18:24:41 info: Server is listening at 3000
+2022-04-18 18:26:42 info: Database is Closing...
+2022-04-18 18:26:47 info: DB Created successfully!
+2022-04-18 18:26:47 info: Server is listening at 3000
+2022-04-18 18:31:24 info: Database is Closing...
+2022-04-18 18:31:28 info: DB Created successfully!
+2022-04-18 18:31:29 info: Server is listening at 3000
+2022-04-18 18:32:04 info: Database is Closing...
+2022-04-18 18:32:07 info: DB Created successfully!
+2022-04-18 18:32:07 info: Server is listening at 3000
+2022-04-18 18:32:19 info: Database is Closing...
+2022-04-18 18:32:22 info: DB Created successfully!
+2022-04-18 18:32:22 info: Server is listening at 3000
+2022-04-18 18:32:33 info: Database is Closing...
+2022-04-18 18:32:36 info: DB Created successfully!
+2022-04-18 18:32:36 info: Server is listening at 3000
+2022-04-18 18:33:34 info: Database is Closing...
+2022-04-18 18:33:37 info: DB Created successfully!
+2022-04-18 18:33:37 info: Server is listening at 3000
+2022-04-18 18:33:45 info: Database is Closing...
+2022-04-18 18:33:49 info: DB Created successfully!
+2022-04-18 18:33:49 info: Server is listening at 3000
+2022-04-18 18:35:01 info: Database is Closing...
+2022-04-18 18:35:05 info: DB Created successfully!
+2022-04-18 18:35:05 info: Server is listening at 3000
+2022-04-18 18:35:07 info: Database is Closing...
+2022-04-18 18:35:11 info: DB Created successfully!
+2022-04-18 18:35:11 info: Server is listening at 3000
+2022-04-18 18:35:42 info: Database is Closing...
+2022-04-18 18:35:46 info: DB Created successfully!
+2022-04-18 18:35:46 info: Server is listening at 3000
+2022-04-18 18:35:49 info: Database is Closing...
+2022-04-18 18:35:53 info: DB Created successfully!
+2022-04-18 18:35:53 info: Server is listening at 3000
+2022-04-18 18:36:07 info: Database is Closing...
+2022-04-18 18:36:11 info: DB Created successfully!
+2022-04-18 18:36:11 info: Server is listening at 3000
+2022-04-18 18:36:18 info: Database is Closing...
+2022-04-18 18:36:24 info: DB Created successfully!
+2022-04-18 18:36:24 info: Server is listening at 3000
+2022-04-18 18:45:48 info: Database is Closing...
+2022-04-18 18:45:52 info: DB Created successfully!
+2022-04-18 18:45:52 info: Server is listening at 3000
+2022-04-18 18:46:54 info: Database is Closing...
+2022-04-18 18:46:57 info: DB Created successfully!
+2022-04-18 18:46:57 info: Server is listening at 3000
+2022-04-18 18:47:15 info: Database is Closing...
+2022-04-18 18:47:18 info: DB Created successfully!
+2022-04-18 18:47:18 info: Server is listening at 3000
+2022-04-18 18:47:46 info: Database is Closing...
+2022-04-18 18:47:50 info: DB Created successfully!
+2022-04-18 18:47:50 info: Server is listening at 3000
+2022-04-18 18:48:13 info: Database is Closing...
+2022-04-18 18:48:17 info: DB Created successfully!
+2022-04-18 18:48:17 info: Server is listening at 3000
+2022-04-18 18:48:48 info: Database is Closing...
+2022-04-18 18:48:51 info: DB Created successfully!
+2022-04-18 18:48:51 info: Server is listening at 3000
+2022-04-18 18:49:08 info: Database is Closing...
+2022-04-18 18:49:11 info: DB Created successfully!
+2022-04-18 18:49:11 info: Server is listening at 3000
+2022-04-18 18:49:23 info: Database is Closing...
+2022-04-18 18:49:26 info: DB Created successfully!
+2022-04-18 18:49:26 info: Server is listening at 3000
+2022-04-18 18:49:32 info: Database is Closing...
+2022-04-18 18:49:35 info: DB Created successfully!
+2022-04-18 18:49:35 info: Server is listening at 3000
+2022-04-19 09:34:24 info: DB Created successfully!
+2022-04-19 09:34:24 info: Server is listening at 3000
+2022-04-19 09:34:38 info: DB Created successfully!
+2022-04-19 09:34:38 info: Successfully deleted
+2022-04-19 09:34:38 info: DB Created successfully!
+2022-04-19 09:34:39 info: Successfully deleted
+2022-04-19 09:34:39 info: Successfully deleted
+2022-04-19 09:34:39 info: new patient added in DB
+2022-04-19 09:35:00 info: Database is Closing...
+2022-04-19 09:35:04 info: DB Created successfully!
+2022-04-19 09:35:24 info: DB Created successfully!
+2022-04-19 09:35:24 info: DB Created successfully!
+2022-04-19 09:35:24 info: Successfully deleted
+2022-04-19 09:35:24 info: Successfully deleted
+2022-04-19 09:35:24 info: Successfully deleted
+2022-04-19 09:35:24 info: new patient added in DB
+2022-04-19 09:35:25 info: Directory created successfully!
+2022-04-19 09:35:25 info: The file has been saved!
+2022-04-19 09:35:29 info: Successfully deleted
+2022-04-19 09:35:37 info: DB Created successfully!
+2022-04-19 09:35:37 info: Successfully deleted
+2022-04-19 09:35:37 info: Successfully deleted
+2022-04-19 09:35:37 info: DB Created successfully!
+2022-04-19 09:35:37 info: Successfully deleted
+2022-04-19 09:35:37 info: new patient added in DB
+2022-04-19 09:40:02 info: DB Created successfully!
+2022-04-19 09:40:20 info: DB Created successfully!
+2022-04-19 09:40:20 info: Successfully deleted
+2022-04-19 09:40:20 info: Successfully deleted
+2022-04-19 09:40:20 info: DB Created successfully!
+2022-04-19 09:40:21 info: Successfully deleted
+2022-04-19 09:41:10 info: DB Created successfully!
+2022-04-19 09:41:24 info: DB Created successfully!
+2022-04-19 09:41:45 info: DB Created successfully!
+2022-04-19 09:41:45 info: Successfully deleted
+2022-04-19 09:41:46 info: DB Created successfully!
+2022-04-19 09:41:46 info: Successfully deleted
+2022-04-19 09:41:46 info: Successfully deleted
+2022-04-19 09:41:46 info: new patient added in DB
+2022-04-19 09:41:47 error: Error: Error: self signed certificate in certificate chain
+2022-04-19 09:41:47 info: info
+2022-04-19 09:41:47 info: Directory created successfully!
+2022-04-19 09:41:47 info: The file has been saved!
+2022-04-19 09:41:47 info: Successfully deleted
+2022-04-19 10:29:07 info: DB Created successfully!
+2022-04-19 10:29:07 info: Successfully deleted
+2022-04-19 10:29:07 info: Successfully deleted
+2022-04-19 10:29:07 info: DB Created successfully!
+2022-04-19 10:29:07 info: Successfully deleted
+2022-04-19 10:29:07 info: new patient added in DB
+2022-04-19 10:29:08 error: Error: Error: self signed certificate in certificate chain
+2022-04-19 10:29:08 info: info
+2022-04-19 10:29:08 info: Directory created successfully!
+2022-04-19 10:29:08 info: The file has been saved!
+2022-04-19 10:29:09 info: Successfully deleted
+2022-04-19 11:30:03 info: DB Created successfully!
+2022-04-19 11:30:03 info: Successfully deleted
+2022-04-19 11:30:03 info: Successfully deleted
+2022-04-19 11:30:03 info: DB Created successfully!
+2022-04-19 11:30:04 info: Successfully deleted
+2022-04-19 11:30:04 info: new patient added in DB
+2022-04-19 11:30:06 info: Directory created successfully!
+2022-04-19 11:30:06 error: Error: Error: self signed certificate in certificate chain
+2022-04-19 11:30:06 info: info
+2022-04-19 11:30:06 info: The file has been saved!
+2022-04-19 11:30:06 info: Successfully deleted
+2022-04-19 11:30:15 info: DB Created successfully!
+2022-04-19 11:30:15 info: Successfully deleted
+2022-04-19 11:30:15 info: DB Created successfully!
+2022-04-19 11:30:15 info: Successfully deleted
+2022-04-19 11:30:15 info: Successfully deleted
+2022-04-19 11:30:15 info: new patient added in DB
+2022-04-19 11:30:18 info: Directory created successfully!
+2022-04-19 11:30:18 info: The file has been saved!
+2022-04-19 11:30:18 info: Successfully deleted
+2022-04-19 11:30:18 error: Error: Error: self signed certificate in certificate chain
+2022-04-19 11:30:18 info: info
+2022-04-19 12:32:49 info: DB Created successfully!
+2022-04-19 12:32:54 info: DB Created successfully!
+2022-04-19 12:32:54 info: Successfully deleted
+2022-04-19 12:32:54 info: Successfully deleted
+2022-04-19 12:32:54 info: DB Created successfully!
+2022-04-19 12:32:54 info: Successfully deleted
+2022-04-19 12:32:54 info: new patient added in DB
+2022-04-19 12:32:55 error: Error: Error: self signed certificate in certificate chain
+2022-04-19 12:32:55 info: info
+2022-04-19 12:32:55 info: Directory created successfully!
+2022-04-19 12:32:55 info: The file has been saved!
+2022-04-19 12:32:55 info: Successfully deleted
+2022-04-19 13:06:51 info: DB Created successfully!
+2022-04-19 13:06:51 info: Successfully deleted
+2022-04-19 13:06:51 info: DB Created successfully!
+2022-04-19 13:06:51 info: Successfully deleted
+2022-04-19 13:06:51 info: Successfully deleted
+2022-04-19 13:06:51 info: new patient added in DB
+2022-04-19 13:06:52 error: Error: Error: self signed certificate in certificate chain
+2022-04-19 13:06:52 info: info
+2022-04-19 13:06:52 info: Directory created successfully!
+2022-04-19 13:06:52 info: The file has been saved!
+2022-04-19 13:06:52 info: Successfully deleted
+2022-04-19 15:28:32 info: DB Created successfully!
+2022-04-19 15:28:35 info: DB Created successfully!
+2022-04-19 15:28:35 info: Successfully deleted
+2022-04-19 15:28:35 info: DB Created successfully!
+2022-04-19 15:28:35 info: Successfully deleted
+2022-04-19 15:28:35 info: new patient added in DB
+2022-04-19 15:28:35 info: Successfully deleted
+2022-04-19 15:28:36 info: Directory created successfully!
+2022-04-19 15:28:36 info: The file has been saved!
+2022-04-19 15:28:36 info: Successfully deleted
+2022-04-20 10:39:14 info: DB Created successfully!
+2022-04-20 10:39:18 info: DB Created successfully!
+2022-04-20 10:39:18 info: DB Created successfully!
+2022-04-20 10:39:18 info: Successfully deleted
+2022-04-20 10:39:18 info: Successfully deleted
+2022-04-20 10:39:18 info: new patient added in DB
+2022-04-20 10:39:19 info: Successfully deleted
+2022-04-20 10:39:20 info: Directory created successfully!
+2022-04-20 10:39:20 info: The file has been saved!
+2022-04-20 10:39:20 info: Successfully deleted
+2022-04-20 10:39:20 error: Error: Error: self signed certificate in certificate chain
+2022-04-20 10:39:20 info: info
+2022-05-30 22:00:19 info: DB Created successfully!
+2022-05-30 22:01:36 info: DB Created successfully!
+2022-05-30 22:03:13 info: DB Created successfully!
+2022-05-30 22:03:23 info: DB Created successfully!
+2022-05-30 22:03:23 info: Server is listening at 3000
+2022-05-30 22:03:26 info: Database is Closing...
+2022-05-30 22:03:33 info: DB Created successfully!
+2022-05-30 22:03:33 info: Server is listening at 3000
+2022-05-30 22:10:39 info: new patient added in DB
+2022-05-30 22:10:41 error: Error: Error: self signed certificate in certificate chain
+2022-05-30 22:10:41 info: info
+2022-05-30 22:10:41 info: Directory created successfully!
+2022-05-30 22:10:41 info: The file has been saved!
+2022-05-30 22:12:21 info: new patient added in DB
+2022-05-30 22:12:22 error: Error: Error: self signed certificate in certificate chain
+2022-05-30 22:12:22 info: info
+2022-05-30 22:12:22 info: Directory created successfully!
+2022-05-30 22:12:22 info: The file has been saved!
+2022-05-30 22:13:09 info: new patient added in DB
+2022-05-30 22:13:09 error: Error: Error: self signed certificate in certificate chain
+2022-05-30 22:13:09 info: info
+2022-05-30 22:13:09 info: Directory created successfully!
+2022-05-30 22:13:09 info: The file has been saved!
+2022-05-30 22:23:17 info: Database is Closing...
+2022-05-30 22:23:23 info: DB Created successfully!
+2022-05-30 22:23:23 info: Server is listening at 3000
+2022-05-30 22:26:06 error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2022-05-30 22:28:10 info: Successfully deleted
+2022-05-30 22:28:47 info: Successfully deleted
+2022-05-30 22:28:57 info: Successfully deleted
+2022-05-30 22:37:55 info: new patient added in DB
+2022-05-30 22:37:56 error: Error: Error: self signed certificate in certificate chain
+2022-05-30 22:37:56 info: info
+2022-05-30 22:37:56 info: Directory created successfully!
+2022-05-30 22:37:56 info: The file has been saved!
+2022-05-31 10:38:48 info: DB Created successfully!
+2022-07-17 17:36:06 info: DB Created successfully!
+2022-07-17 17:36:25 info: DB Created successfully!
+2022-07-17 17:37:12 info: DB Created successfully!
+2022-07-17 17:38:00 info: DB Created successfully!
+2022-07-17 17:38:00 info: Server is listening at 3000
+2022-07-17 17:44:08 info: Database is Closing...
