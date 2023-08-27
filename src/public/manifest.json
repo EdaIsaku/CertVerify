@@ -1,9 +1,9 @@
 {
-  "name": "Certificate Verification",
+  "name": "Certificate Verification System",
   "short_name": "CertVerify",
-  "start_url": "./index.html",
+  "start_url": "./main.html",
   "display": "standalone",
-  "id": "./index.html",
+  "id": "./main.html",
   "icons": [
     {
       "src": "./assets/icons/icon-72x72.png",

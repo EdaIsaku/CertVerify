@@ -16,6 +16,8 @@ const registrateServiceWorker = async () => {
     } catch (error) {
       console.log(error);
     }
+  } else {
+    console.log('Service Worker is not supported!');
   }
 };
 
