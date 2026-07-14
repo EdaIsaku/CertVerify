@@ -9,6 +9,30 @@
 
 ---
 
+# 📸 Screenshots
+
+## Dashboard
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+---
+
+## Certificate
+
+![Certificate](docs/screenshots/certificate.png)
+
+---
+
+## QR Verification
+
+![QR](docs/screenshots/verification.png)
+
+## Email
+
+![Email](docs/screenshots/email.png)
+
+---
+
 ## 📖 Overview
 
 CertVerify is a backend application designed to automate the complete lifecycle of training certificates.
@@ -218,29 +242,6 @@ Testing stack
 
 ---
 
-# 📸 Screenshots
-
-## Dashboard
-
-![Dashboard](docs/screenshots/dashboard.png)
-
----
-
-## Certificate
-
-![Certificate](docs/screenshots/Eda_Isaku.pdf)
-
----
-
-## QR Verification
-
-![QR](docs/screenshots/verification.png)
-
-## Email
-
-![Email](docs/screenshots/email.png)
-
----
 
 # 🔒 Security
 
