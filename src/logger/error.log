@@ -94,3 +94,11 @@
 2022-05-30 22:13:09 error: Error: Error: self signed certificate in certificate chain
 2022-05-30 22:26:06 error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
 2022-05-30 22:37:56 error: Error: Error: self signed certificate in certificate chain
+2024-07-14 18:47:41 error: Error: Error: Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 4fb4d7f45d1cf-59b26f62189sm2227665a12.88 - gsmtp
+2026-07-03 15:06:19 error: Error: Error: Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 5b1f17b1804b1-493c63ba971sm203089055e9.13 - gsmtp
+2026-07-03 15:12:02 error: Error: Error: Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 5b1f17b1804b1-493bfe7427dsm124590465e9.2 - gsmtp
+2026-07-03 15:13:40 error: Error: Error: Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor ffacd0b85a97d-477de3dc77bsm18539628f8f.33 - gsmtp

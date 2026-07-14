@@ -131,6 +131,7 @@ const getStudentData = () => {
 //clear form
 const clearForm = (formName) => {
   let form = getElement(formName);
+  console.log('called');
   form.reset();
 };
 
@@ -205,6 +206,9 @@ form.addEventListener('submit', (ev) => {
           res.studentURL
         );
         clearForm('.form');
+        courseName.selectedIndex = 0;
+        courseDate.value = '';
+        courseCredit.value = '';
       });
   } else {
     notifyError('Please fill all the required data!');
