@@ -228,13 +228,17 @@ Testing stack
 
 ## Certificate
 
-![Certificate](docs/screenshots/certificate.png)
+![Certificate](docs/screenshots/Eda_Isaku.pdf)
 
 ---
 
 ## QR Verification
 
 ![QR](docs/screenshots/verification.png)
+
+## Email
+
+![Email](docs/screenshots/email.png)
 
 ---
 
